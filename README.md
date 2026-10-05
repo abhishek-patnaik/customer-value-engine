@@ -81,6 +81,18 @@ Every judgement call (cleaning lists, holdout length, budget, margin, response a
 
 The report is in [powerbi/](powerbi/): open `CustomerValueEngine.pbix` in Power BI Desktop (free, no account needed), or `CustomerValueEngine.pbip` to see the same report as readable files. Four pages: overview, retention, customer value and the budget plan.
 
+![Power BI overview page](powerbi/screenshots/overview.png)
+
+<details><summary>The other three pages</summary>
+
+![Retention](powerbi/screenshots/retention.png)
+![Customer value](powerbi/screenshots/customer_value.png)
+![Budget plan](powerbi/screenshots/budget_plan.png)
+
+</details>
+
+A PDF of all four pages is in [powerbi/CustomerValueEngine.pdf](powerbi/CustomerValueEngine.pdf).
+
 It is built from code. `python -m clv powerbi-project` writes the whole Power BI project, data model, relationships, 35 measures, theme and every visual, from [clv/pbip.py](clv/pbip.py), reading the star schema the pipeline puts in `outputs/powerbi/`. If you clone the repo somewhere else, run that command so the report points at your copy of the data, then open the .pbip and click Refresh. [docs/POWERBI.md](docs/POWERBI.md) explains the model and every measure, and how to rebuild it by hand.
 
 ## What is where
