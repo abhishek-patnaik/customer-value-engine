@@ -1,0 +1,395 @@
+customer_id,segment,action,recommended_spend,expected_incremental_revenue,return_per_pound,planning_value,value_at_risk,p_alive,revenue
+18102,Champions,"Early access to new ranges, account manager check-in",103.9857,4502.4844,15.1547,75705.3583,210.6095,0.9972,579128.64
+14646,Champions,"Early access to new ranges, account manager check-in",101.3681,4047.7998,13.9761,68244.9426,163.5456,0.9976,523987.34
+14156,Champions,"Early access to new ranges, account manager check-in",87.6601,2309.16,9.2198,38967.8354,283.4563,0.9928,298316.25
+17450,Champions,"Early access to new ranges, account manager check-in",87.2039,2266.1138,9.0952,38080.492,351.4187,0.9909,233675.91
+14911,Champions,"Early access to new ranges, account manager check-in",84.0657,1990.3521,8.2867,34248.0185,45.9968,0.9987,259931.08
+14096,Champions,"Early access to new ranges, account manager check-in",79.0068,1612.6415,7.144,27106.3739,384.5845,0.986,53258.43
+13694,Champions,"Early access to new ranges, account manager check-in",76.4742,1450.3943,6.638,25163.7169,79.9991,0.9968,193087.77
+12415,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",75.9118,1416.5458,6.5311,23361.9982,575.0296,0.976,143275.72
+17511,Champions,"Early access to new ranges, account manager check-in",73.0041,1253.1654,6.008,21856.2277,88.1356,0.996,169626.87
+16684,Champions,"Early access to new ranges, account manager check-in",68.9525,1054.9892,5.3551,18488.276,114.1416,0.9939,141955.55
+16029,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",68.4845,1034.0998,5.2849,8572.0473,3941.3703,0.685,97083.71
+15061,Champions,"Early access to new ranges, account manager check-in",65.3427,903.5393,4.8397,16104.6642,57.9204,0.9964,125720.73
+15311,Champions,"Early access to new ranges, account manager check-in",63.2148,823.9873,4.5622,14880.6736,17.1696,0.9988,113207.62
+13089,Champions,"Early access to new ranges, account manager check-in",62.9606,814.9307,4.5302,14691.5516,32.4414,0.9978,111409.54
+17949,Champions,"Early access to new ranges, account manager check-in",60.1036,719.2119,4.1882,13078.2425,39.6392,0.997,101032.86
+14298,Champions,"Early access to new ranges, account manager check-in",57.7401,647.8877,3.9273,11802.3554,74.4993,0.9937,91154.17
+15769,Champions,"Early access to new ranges, account manager check-in",55.7964,594.0814,3.7266,10919.4471,68.9546,0.9937,84362.52
+14088,Champions,"Early access to new ranges, account manager check-in",54.6436,564.09,3.6131,10207.1465,153.9317,0.9851,63731.63
+12931,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",54.5023,560.5086,3.5994,10037.3363,197.9799,0.9807,78811.4
+13798,Champions,"Early access to new ranges, account manager check-in",53.0495,524.831,3.4626,9881.8803,22.3118,0.9977,74461.81
+15838,Champions,"Early access to new ranges, account manager check-in",52.8386,519.8242,3.4433,9626.904,90.9233,0.9906,73205.5
+13902,Can't lose them,"Senior account manager call, tailored offer, find out what changed",51.5184,489.4097,3.3249,61.827,3714.191,0.0164,30392.46
+17841,Champions,"Early access to new ranges, account manager check-in",50.4564,466.0841,3.2331,8925.3154,13.2914,0.9985,67667.94
+16422,Champions,"Early access to new ranges, account manager check-in",50.3206,463.1724,3.2216,8247.5972,264.9675,0.9689,61397.22
+13098,Champions,"Early access to new ranges, account manager check-in",46.6285,389.7736,2.9257,7552.1069,53.8385,0.9929,28882.44
+14680,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",46.3343,384.3786,2.9035,6973.463,249.329,0.9655,54854.32
+17389,Champions,"Early access to new ranges, account manager check-in",46.0605,379.4138,2.8831,7450.3028,25.4949,0.9966,57170.33
+13081,Champions,"Early access to new ranges, account manager check-in",45.3084,366.0523,2.8277,7113.1085,71.2957,0.9901,56528.67
+16333,Champions,"Early access to new ranges, account manager check-in",44.5858,353.5888,2.7757,6826.6728,102.7798,0.9852,26626.8
+16013,Champions,"Early access to new ranges, account manager check-in",44.5202,352.4755,2.771,6986.4936,31.4298,0.9955,53801.79
+13408,Champions,"Early access to new ranges, account manager check-in",42.964,326.8928,2.663,6593.3975,18.1168,0.9973,50099.78
+17404,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",42.4453,318.7132,2.6281,6182.4045,127.9831,0.9797,46032.12
+12748,Champions,"Early access to new ranges, account manager check-in",41.5609,305.1527,2.5698,6258.148,7.2829,0.9988,47023.38
+13881,Champions,"Early access to new ranges, account manager check-in",41.2086,299.8825,2.547,6092.3753,38.4568,0.9937,44673.1
+15749,At risk,"Win back call from account manager, discount on next order",39.7787,279.2418,2.457,3846.2295,799.3104,0.8279,24850.9
+13777,Champions,"Early access to new ranges, account manager check-in",39.6068,276.8392,2.4464,5748.7061,22.3029,0.9961,49638.26
+13802,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",39.5299,275.7688,2.4417,2245.5912,1416.4125,0.6132,25839.11
+16705,Champions,"Early access to new ranges, account manager check-in",37.5376,249.1738,2.3233,5258.8196,33.8212,0.9936,43010.95
+12482,Can't lose them,"Senior account manager call, tailored offer, find out what changed",37.3667,246.9896,2.3135,34.098,2109.1485,0.0159,21941.72
+15039,Champions,"Early access to new ranges, account manager check-in",37.1569,244.3287,2.3015,5178.6562,33.5859,0.9936,38883.29
+12901,Champions,"Early access to new ranges, account manager check-in",36.837,240.3136,2.2833,5034.4377,64.5063,0.9873,17195.54
+17675,Champions,"Early access to new ranges, account manager check-in",35.976,229.7609,2.2353,4979.6223,16.081,0.9968,37443.5
+17381,Champions,"Early access to new ranges, account manager check-in",34.8886,216.9406,2.1763,4703.2571,41.1583,0.9913,36398.65
+17677,Champions,"Early access to new ranges, account manager check-in",33.8227,204.9041,2.1204,4546.6717,23.5489,0.9948,34854.06
+12921,Champions,"Early access to new ranges, account manager check-in",33.6424,202.9181,2.1111,4497.2535,30.0765,0.9934,34302.49
+12471,Champions,"Early access to new ranges, account manager check-in",33.5704,202.1295,2.1074,4509.2202,20.0323,0.9956,34870.45
+14031,Champions,"Early access to new ranges, account manager check-in",33.4374,200.6777,2.1006,4462.9892,28.846,0.9936,36272.61
+16210,Champions,"Early access to new ranges, account manager check-in",32.8194,194.0337,2.0693,4360.1794,25.677,0.9941,33730.97
+12753,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",32.5531,191.2215,2.0559,4050.7927,130.6831,0.9687,21327.39
+13767,Champions,"Early access to new ranges, account manager check-in",32.5141,190.8123,2.054,4331.5122,15.6676,0.9964,33820.12
+12678,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",32.372,189.3255,2.047,4003.946,136.7818,0.967,32442.18
+15159,Champions,"Early access to new ranges, account manager check-in",31.8696,184.1378,2.0222,4179.9646,31.7901,0.9925,22086.85
+16779,Champions,"Early access to new ranges, account manager check-in",31.7493,182.9111,2.0164,4196.6752,16.9274,0.996,32705.95
+15856,Champions,"Early access to new ranges, account manager check-in",31.4432,179.8162,2.0016,4135.152,20.9044,0.995,32114.34
+15768,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",31.0228,175.6261,1.9814,589.1759,1411.3605,0.2945,15308.89
+16745,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",30.9265,174.6761,1.9768,550.7469,1420.3992,0.2794,7180.7
+14258,Champions,"Early access to new ranges, account manager check-in",30.7303,172.7524,1.9675,3972.9949,38.6755,0.9904,31569.24
+17428,Champions,"Early access to new ranges, account manager check-in",30.1855,167.489,1.942,3930.7603,20.4796,0.9948,31064.41
+14606,Champions,"Early access to new ranges, account manager check-in",29.7679,163.5314,1.9227,3900.8099,6.0759,0.9984,29277.47
+12709,Champions,"Early access to new ranges, account manager check-in",29.3523,159.6574,1.9038,3739.8396,44.6372,0.9882,29409.88
+16553,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",29.1415,157.7168,1.8942,1286.3255,1013.1055,0.5594,16511.51
+13078,Champions,"Early access to new ranges, account manager check-in",29.0505,156.8845,1.8901,3766.7317,15.3943,0.9959,28966.48
+12980,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",28.9462,155.9337,1.8855,928.6,1144.3085,0.448,16245.78
+17857,Champions,"Early access to new ranges, account manager check-in",28.8938,155.4583,1.8831,3700.4574,32.3963,0.9913,25697.04
+12939,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",28.5572,152.4237,1.8681,3221.6836,203.6751,0.9405,25264.8
+18087,Can't lose them,"Senior account manager call, tailored offer, find out what changed",28.1838,149.1054,1.8517,467.0523,1283.4058,0.2668,13623.12
+15513,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",28.0466,147.8979,1.8457,3351.615,121.5302,0.965,26103.21
+14866,Champions,"Early access to new ranges, account manager check-in",27.8862,146.4955,1.8387,3506.4666,50.2404,0.9859,20521.48
+12731,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",27.6428,144.3839,1.8281,3424.1186,69.1021,0.9802,25540.21
+12681,Champions,"Early access to new ranges, account manager check-in",27.4925,143.0907,1.8216,3480.0779,38.0971,0.9892,26924.01
+17865,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",27.3809,142.135,1.8169,3284.1944,110.0795,0.9676,26089.94
+18073,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",27.1616,140.2694,1.8075,152.7411,1350.2231,0.1016,3859.82
+14527,Champions,"Early access to new ranges, account manager check-in",27.05,139.3267,1.8027,3492.5222,8.0265,0.9977,26977.25
+14134,Can't lose them,"Senior account manager call, tailored offer, find out what changed",26.2465,132.6607,1.769,79.6008,1328.7549,0.0565,11123.35
+16133,Champions,"Early access to new ranges, account manager check-in",26.2457,132.654,1.769,3363.1994,15.2705,0.9955,22553.51
+14062,Champions,"Early access to new ranges, account manager check-in",25.8221,129.2252,1.7516,3264.5961,31.8533,0.9903,25503.88
+17940,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",25.4749,126.4577,1.7374,3029.2224,107.5525,0.9657,28389.58
+18251,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",25.2159,124.4183,1.7269,2868.8061,158.1234,0.9478,26278.86
+13027,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",25.081,123.3645,1.7215,1758.8727,595.0717,0.7472,17143.2
+12621,Champions,"Early access to new ranges, account manager check-in",24.504,118.92,1.6986,3128.5566,17.5677,0.9944,21980.7
+15189,Champions,"Early access to new ranges, account manager check-in",24.3476,117.7327,1.6924,3117.4527,14.0943,0.9955,17524.38
+14895,Champions,"Early access to new ranges, account manager check-in",24.3055,117.4147,1.6908,3081.4241,26.3855,0.9915,24923.89
+18008,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",24.2549,117.0328,1.6888,2467.751,269.3084,0.9016,19759.08
+13001,Champions,"Early access to new ranges, account manager check-in",24.117,115.9962,1.6834,3076.317,18.9717,0.9939,24032.45
+12433,Champions,"Early access to new ranges, account manager check-in",24.1023,115.8864,1.6828,3004.6348,46.9123,0.9846,16794.14
+16839,Champions,"Early access to new ranges, account manager check-in",24.0954,115.8343,1.6826,3069.2727,20.7099,0.9933,21556.54
+16729,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",23.9476,114.7308,1.6768,1702.8656,559.9161,0.7526,7191.56
+17920,Champions,"Early access to new ranges, account manager check-in",23.7803,113.4886,1.6703,3046.8935,14.024,0.9954,23569.88
+17735,Champions,"Early access to new ranges, account manager check-in",23.5083,111.4882,1.6599,2993.6209,21.9968,0.9927,16740.33
+16525,Champions,"Early access to new ranges, account manager check-in",23.435,110.9523,1.6571,3006.8837,13.1189,0.9957,23009.47
+15640,Champions,"Early access to new ranges, account manager check-in",23.14,108.8132,1.6458,2948.1961,22.3336,0.9925,23440.01
+15498,Champions,"Early access to new ranges, account manager check-in",22.8454,106.7015,1.6347,2925.1638,17.4683,0.9941,24882.86
+16180,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",22.2124,102.2476,1.6111,2112.2233,312.9516,0.871,16249.87
+15808,Can't lose them,"Senior account manager call, tailored offer, find out what changed",21.6433,98.3392,1.5903,11.3862,1127.231,0.0052,17125.8
+14051,Champions,"Early access to new ranges, account manager check-in",21.5243,97.5326,1.5859,2781.6251,13.7576,0.9951,21770.98
+15251,Champions,"Early access to new ranges, account manager check-in",21.4543,97.0604,1.5834,2734.0993,29.6198,0.9893,20324.54
+15615,Champions,"Early access to new ranges, account manager check-in",21.4543,97.0603,1.5834,2753.6934,21.7821,0.9922,21357.02
+12477,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",21.4146,96.7928,1.582,2650.7436,61.1782,0.9774,20276.37
+13319,Champions,"Early access to new ranges, account manager check-in",21.3829,96.5795,1.5808,2760.9266,15.6833,0.9944,21231.07
+18260,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",21.3779,96.5461,1.5807,350.0941,979.7933,0.2633,9904.31
+17340,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",21.2596,95.7534,1.5764,2624.7704,64.638,0.976,19529.8
+12409,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",21.1562,95.0633,1.5727,2438.8171,134.4186,0.9478,23106.21
+13715,Can't lose them,"Senior account manager call, tailored offer, find out what changed",21.0727,94.508,1.5697,32.0509,1093.4234,0.0285,8129.24
+12682,Champions,"Early access to new ranges, account manager check-in",20.9341,93.5904,1.5648,2719.3437,12.3889,0.9955,20736.22
+13113,Champions,"Early access to new ranges, account manager check-in",20.842,92.9839,1.5615,2707.3354,13.1491,0.9952,18139.21
+16843,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",20.774,92.5373,1.5591,2414.1024,127.4651,0.9498,19548.03
+14667,Champions,"Early access to new ranges, account manager check-in",20.7418,92.326,1.5579,2679.8914,19.7406,0.9927,20333.84
+14547,Champions,"Early access to new ranges, account manager check-in",20.6825,91.9385,1.5558,2586.8292,54.382,0.9794,3974.75
+17139,Champions,"Early access to new ranges, account manager check-in",20.4103,90.1688,1.5462,2602.1374,36.461,0.9862,19533.76
+17243,Champions,"Early access to new ranges, account manager check-in",20.0067,87.5815,1.5322,2630.0044,8.0652,0.9969,20136.13
+14733,Champions,"Early access to new ranges, account manager check-in",19.9242,87.0575,1.5293,2515.2972,50.4551,0.9803,14335.15
+17230,Can't lose them,"Senior account manager call, tailored offer, find out what changed",19.8324,86.4767,1.5261,273.1803,943.4298,0.2245,9226.25
+12540,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",19.5046,84.4197,1.5149,2502.0944,38.1507,0.985,19172.04
+14952,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",19.0935,81.8778,1.5009,2139.6176,166.1952,0.9279,17569.55
+16652,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",19.0838,81.8185,1.5006,2272.8541,112.5057,0.9528,17453.19
+14367,Champions,"Early access to new ranges, account manager check-in",18.8888,80.6276,1.494,2436.8283,38.9765,0.9843,9147.42
+14194,Champions,"Early access to new ranges, account manager check-in",18.8034,80.1093,1.4911,2478.47,18.8646,0.9924,18567.99
+17706,Champions,"Early access to new ranges, account manager check-in",18.7262,79.642,1.4885,2467.7793,20.0251,0.992,19866.37
+13458,Champions,"Early access to new ranges, account manager check-in",18.4164,77.7812,1.4782,2410.4705,30.5438,0.9875,11926.07
+13206,Can't lose them,"Senior account manager call, tailored offer, find out what changed",18.2691,76.9046,1.4733,14.3724,983.1388,0.0144,8308.19
+17504,Can't lose them,"Senior account manager call, tailored offer, find out what changed",18.1237,76.0445,1.4686,536.085,768.7196,0.4109,9238.42
+15523,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",17.7738,73.9947,1.4571,1998.8058,169.966,0.9216,17259.19
+13340,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",17.6758,73.426,1.4539,2220.5061,77.495,0.9663,22100.56
+13952,Can't lose them,"Senior account manager call, tailored offer, find out what changed",17.6332,73.1795,1.4525,1004.2582,562.3504,0.641,12823.52
+16746,Champions,"Early access to new ranges, account manager check-in",17.5728,72.8305,1.4506,2372.8662,12.5809,0.9947,18045.05
+13090,Champions,"Early access to new ranges, account manager check-in",17.396,71.8141,1.4449,2327.733,23.8576,0.9899,13076.74
+15939,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",17.3853,71.7522,1.4445,932.9852,581.3444,0.6161,9004.84
+17377,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",17.3783,71.7122,1.4443,2138.6045,98.8303,0.9558,17579.43
+18172,Champions,"Early access to new ranges, account manager check-in",17.2827,71.1663,1.4412,2313.314,25.3067,0.9892,17427.44
+17581,Champions,"Early access to new ranges, account manager check-in",16.8252,68.58,1.4266,2287.2901,18.4748,0.992,17680.97
+16019,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",16.8013,68.4465,1.4259,2066.9349,105.7269,0.9513,16828.97
+18231,Can't lose them,"Senior account manager call, tailored offer, find out what changed",16.6547,67.6286,1.4212,52.8261,905.9175,0.0551,6817.57
+17416,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",16.5389,66.986,1.4176,2180.8527,50.4228,0.9774,17243.37
+14056,Champions,"Early access to new ranges, account manager check-in",16.432,66.3957,1.4142,2252.5117,17.8241,0.9921,8106.38
+16919,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",16.4103,66.2758,1.4135,43.3196,900.7015,0.0459,4853.46
+15078,Champions,"Early access to new ranges, account manager check-in",16.2986,65.6619,1.41,2246.8124,15.2114,0.9933,17178.53
+16656,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",16.0125,64.1022,1.4011,2162.0732,38.709,0.9824,16724.57
+16672,Champions,"Early access to new ranges, account manager check-in",15.7223,62.5378,1.3922,2177.6043,22.0674,0.99,8134.94
+12557,Champions,"Early access to new ranges, account manager check-in",15.2927,60.2557,1.3791,2085.3661,43.7488,0.9795,18096.14
+15125,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",15.1624,59.571,1.3751,2066.6468,46.6717,0.9779,16584.27
+15358,Champions,"Early access to new ranges, account manager check-in",15.11,59.2964,1.3735,2143.3157,14.1739,0.9934,16388.01
+13868,Champions,"Early access to new ranges, account manager check-in",14.9771,58.6036,1.3695,1953.5455,85.4631,0.9581,3192.54
+13199,Champions,"Early access to new ranges, account manager check-in",14.8886,58.1442,1.3668,2137.9333,8.6452,0.996,15936.05
+18139,Champions,"Early access to new ranges, account manager check-in",14.6592,56.9604,1.36,1843.5778,118.4955,0.9396,8438.34
+17589,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",14.6078,56.6968,1.3584,1839.3739,118.4198,0.9395,13713.92
+14849,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",14.4783,56.0352,1.3546,2035.9671,35.3713,0.9829,15217.65
+12971,Champions,"Early access to new ranges, account manager check-in",14.2372,54.8116,1.3475,2088.6345,6.1473,0.9971,15218.05
+17716,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",14.0158,53.6987,1.341,1998.055,34.9596,0.9828,15720.07
+14961,Champions,"Early access to new ranges, account manager check-in",14.0035,53.6371,1.3406,2028.3476,22.432,0.9891,16372.35
+14607,Champions,"Early access to new ranges, account manager check-in",13.9238,53.2391,1.3383,1998.0092,31.9144,0.9843,17412.23
+12476,Champions,"Early access to new ranges, account manager check-in",13.8754,52.9979,1.3368,1990.4295,33.3377,0.9835,12178.56
+12830,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",13.8707,52.9745,1.3367,1746.0399,130.9377,0.9302,6814.64
+17107,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",13.7617,52.4332,1.3335,1929.4067,53.9827,0.9728,15762.72
+15044,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",13.6522,51.8918,1.3303,1979.7392,30.2404,0.985,15731.61
+13225,Champions,"Early access to new ranges, account manager check-in",13.4973,51.1303,1.3259,1988.3233,21.73,0.9892,16260.07
+13536,Champions,"Early access to new ranges, account manager check-in",13.4971,51.1293,1.3259,1944.4786,39.2609,0.9802,3444.39
+16191,Champions,"Early access to new ranges, account manager check-in",13.4913,51.1009,1.3257,1993.835,19.3293,0.9904,15275.27
+17306,Champions,"Early access to new ranges, account manager check-in",13.3243,50.2852,1.3209,1960.0123,27.4199,0.9862,9782.35
+13488,Champions,"Early access to new ranges, account manager check-in",13.1801,49.5851,1.3167,1943.8472,29.2188,0.9852,14167.56
+15369,Can't lose them,"Senior account manager call, tailored offer, find out what changed",13.0021,48.7266,1.3117,17.0877,794.1992,0.0211,6251.26
+14769,Champions,"Early access to new ranges, account manager check-in",12.9856,48.6472,1.3112,1953.8877,18.9501,0.9904,15491.76
+16187,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",12.9697,48.5708,1.3107,1750.0843,99.9623,0.946,6841.24
+14364,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",12.9668,48.5566,1.3106,580.3869,567.7467,0.5055,3717.35
+16126,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",12.8376,47.9383,1.307,1882.0716,42.9504,0.9777,14644.6
+16360,Champions,"Early access to new ranges, account manager check-in",12.8193,47.8509,1.3065,1873.4186,45.8288,0.9761,3382.61
+16549,Champions,"Early access to new ranges, account manager check-in",12.799,47.7542,1.3059,1941.6436,17.8945,0.9909,12774.9
+16033,Champions,"Early access to new ranges, account manager check-in",12.4464,46.0851,1.2959,1918.1791,16.1527,0.9916,10540.46
+13969,Champions,"Early access to new ranges, account manager check-in",12.4025,45.8789,1.2947,1919.8329,14.1166,0.9927,12826.31
+15601,Champions,"Early access to new ranges, account manager check-in",12.1466,44.6841,1.2876,1889.6565,18.2217,0.9904,14179.24
+12472,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",12.1387,44.6477,1.2873,1813.9104,48.2776,0.9741,14878.24
+12744,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",12.0672,44.3159,1.2854,1746.2964,73.1109,0.9598,13158.16
+14828,Can't lose them,"Senior account manager call, tailored offer, find out what changed",12.0577,44.2721,1.2851,777.7529,460.2367,0.6282,9803.46
+16873,Champions,"Early access to new ranges, account manager check-in",12.0254,44.1226,1.2842,1864.1441,24.6838,0.9869,14617.39
+14121,Champions,"Early access to new ranges, account manager check-in",12.0124,44.0627,1.2838,1790.416,53.7751,0.9708,2780.15
+18055,Champions,"Early access to new ranges, account manager check-in",11.9111,43.5956,1.281,1851.7994,26.1077,0.9861,10124.79
+17719,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",11.8748,43.4288,1.28,1390.5412,209.4992,0.8691,5381.04
+13629,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",11.7937,43.0565,1.2778,1818.818,35.7067,0.9807,13370.86
+17811,Champions,"Early access to new ranges, account manager check-in",11.7114,42.6804,1.2755,1874.8659,10.7801,0.9943,9419.1
+13178,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",11.6216,42.2713,1.2731,1799.7772,38.0881,0.9793,14051.39
+12949,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",11.5742,42.0561,1.2718,1785.9489,42.1847,0.9769,15471.2
+12647,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",11.5404,41.9024,1.2708,1799.3516,35.7994,0.9805,14019.35
+18226,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",11.4844,41.6491,1.2693,1620.6868,105.5763,0.9388,11835.38
+14049,Champions,"Early access to new ranges, account manager check-in",11.4802,41.6299,1.2692,1797.1615,34.8587,0.981,12885.17
+16713,Champions,"Early access to new ranges, account manager check-in",11.4613,41.5446,1.2687,1817.2373,26.2593,0.9858,13970.66
+18092,Champions,"Early access to new ranges, account manager check-in",11.0435,39.6724,1.2573,1807.8925,17.5164,0.9904,14693.72
+14936,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",10.9662,39.3292,1.2552,1714.7312,52.4924,0.9703,12398.06
+17315,Champions,"Early access to new ranges, account manager check-in",10.9199,39.1241,1.254,1820.3621,8.8731,0.9951,9536.5
+15005,Champions,"Early access to new ranges, account manager check-in",10.8199,38.6832,1.2513,1778.1331,22.8251,0.9873,13561.13
+15291,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",10.7665,38.448,1.2499,1721.0609,44.0862,0.975,13419.06
+13263,Champions,"Early access to new ranges, account manager check-in",10.7579,38.4103,1.2496,1806.5422,9.6422,0.9947,8650.98
+12451,Champions,"Early access to new ranges, account manager check-in",10.6036,37.7346,1.2455,1727.2352,36.8603,0.9791,12527.88
+17528,Champions,"Early access to new ranges, account manager check-in",10.4828,37.208,1.2423,1723.424,34.8745,0.9802,3628.5
+16161,Champions,"Early access to new ranges, account manager check-in",10.4268,36.9652,1.2408,1786.5653,7.9992,0.9955,12397.16
+16923,Champions,"Early access to new ranges, account manager check-in",10.4162,36.9193,1.2405,1759.7261,18.4285,0.9896,12765.78
+14016,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",10.3871,36.793,1.2398,1152.3932,260.5196,0.8156,11303.41
+16814,Champions,"Early access to new ranges, account manager check-in",10.3754,36.7427,1.2395,1748.1305,21.8897,0.9876,11914.95
+17338,Champions,"Early access to new ranges, account manager check-in",10.2305,36.1172,1.2356,1723.5143,27.5664,0.9843,11880.54
+15093,Champions,"Early access to new ranges, account manager check-in",10.1883,35.936,1.2345,1724.2624,26.059,0.9851,13183.98
+15738,Champions,"Early access to new ranges, account manager check-in",10.1524,35.7819,1.2336,1723.1056,25.4944,0.9854,13030.12
+14249,Can't lose them,"Senior account manager call, tailored offer, find out what changed",9.9893,35.0848,1.2293,58.5034,686.6877,0.0785,5400.46
+14543,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",9.9661,34.9861,1.2287,1647.4447,50.4531,0.9703,12810.02
+16558,Champions,"Early access to new ranges, account manager check-in",9.9621,34.9688,1.2286,1752.1598,8.4521,0.9952,13258.61
+12989,Champions,"Early access to new ranges, account manager check-in",9.9248,34.8104,1.2276,1741.4214,11.691,0.9933,13242.15
+16258,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",9.9228,34.8019,1.2275,1614.2951,62.4848,0.9627,11942.52
+18225,Champions,"Early access to new ranges, account manager check-in",9.8969,34.6917,1.2269,1736.8781,12.7174,0.9927,12986.75
+13324,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",9.8783,34.6127,1.2264,1628.0306,55.7293,0.9669,10513.47
+13102,Champions,"Early access to new ranges, account manager check-in",9.8443,34.4686,1.2255,1740.8874,9.6263,0.9945,11319.2
+12435,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",9.789,34.2346,1.224,1581.2844,71.9073,0.9565,13925.93
+12950,Champions,"Early access to new ranges, account manager check-in",9.704,33.8763,1.2218,1615.0827,55.9992,0.9665,1843.0
+14040,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",9.6378,33.5978,1.2201,1522.6724,91.1068,0.9435,12523.81
+18223,Champions,"Early access to new ranges, account manager check-in",9.5257,33.1279,1.2172,1710.2856,12.9291,0.9925,13910.51
+17085,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",9.4976,33.0104,1.2165,597.2731,457.3508,0.5663,7777.12
+13097,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",9.4974,33.0097,1.2165,1628.5189,44.8474,0.9732,12965.96
+17183,Champions,"Early access to new ranges, account manager check-in",9.494,32.9955,1.2164,1632.4805,43.168,0.9742,3330.36
+14110,Champions,"Early access to new ranges, account manager check-in",9.3968,32.5899,1.2139,1707.8133,10.3314,0.994,12974.45
+17173,Champions,"Early access to new ranges, account manager check-in",9.1389,31.5223,1.2072,1624.5255,36.5293,0.978,3766.6
+13468,Champions,"Early access to new ranges, account manager check-in",9.0361,31.1001,1.2046,1696.3899,4.9682,0.9971,12753.48
+17396,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",8.8546,30.3582,1.2,1527.5003,67.5783,0.9576,8159.1
+12705,Champions,"Early access to new ranges, account manager check-in",8.823,30.2299,1.1992,1620.7684,29.4161,0.9822,11034.55
+13668,Champions,"Early access to new ranges, account manager check-in",8.8182,30.2103,1.1991,1671.3534,9.0509,0.9946,12812.93
+12627,Champions,"Early access to new ranges, account manager check-in",8.7869,30.0832,1.1983,1578.9112,45.1804,0.9722,4082.53
+13854,Champions,"Early access to new ranges, account manager check-in",8.6718,29.6166,1.1954,1655.4188,11.4672,0.9931,11914.86
+13316,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",8.5923,29.2961,1.1933,1556.8857,48.7433,0.9696,12818.42
+14426,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",8.5575,29.156,1.1925,1594.2711,32.8556,0.9798,11341.65
+17017,Champions,"Early access to new ranges, account manager check-in",8.5513,29.1311,1.1923,1643.6715,12.9291,0.9922,12537.49
+18109,Champions,"Early access to new ranges, account manager check-in",8.4964,28.9103,1.1909,1651.328,8.3946,0.9949,9431.41
+16523,Champions,"Early access to new ranges, account manager check-in",8.4816,28.8509,1.1906,1642.0244,11.7199,0.9929,11874.73
+17061,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",8.4484,28.7178,1.1897,868.7078,320.1593,0.7307,5116.13
+12714,Champions,"Early access to new ranges, account manager check-in",8.4212,28.609,1.189,1609.6529,23.0557,0.9859,12815.71
+16609,Champions,"Early access to new ranges, account manager check-in",8.363,28.3764,1.1876,1552.469,44.3789,0.9722,5463.76
+12474,Champions,"Early access to new ranges, account manager check-in",8.2391,27.883,1.1845,1597.6722,23.008,0.9858,11111.32
+15382,Champions,"Early access to new ranges, account manager check-in",8.1837,27.6632,1.1831,1580.9645,28.2262,0.9825,13687.2
+17858,Champions,"Early access to new ranges, account manager check-in",8.175,27.6287,1.1829,1621.7293,11.6898,0.9928,12518.65
+15187,Champions,"Early access to new ranges, account manager check-in",8.0987,27.3266,1.181,1596.1518,19.9074,0.9877,4731.58
+17509,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",8.0911,27.2968,1.1808,1057.2913,235.2528,0.818,6083.64
+14554,Champions,"Early access to new ranges, account manager check-in",7.9614,26.7859,1.1776,1494.4555,56.9812,0.9633,2279.49
+15465,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",7.9483,26.7344,1.1772,1575.4309,24.2474,0.9848,12080.5
+15874,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",7.9039,26.5601,1.1761,1417.0868,86.4233,0.9425,11284.76
+12766,Champions,"Early access to new ranges, account manager check-in",7.8831,26.479,1.1756,1567.0286,25.9054,0.9837,8114.99
+14299,Champions,"Early access to new ranges, account manager check-in",7.8562,26.3736,1.175,1595.7784,13.7028,0.9915,13938.2
+15144,Champions,"Early access to new ranges, account manager check-in",7.833,26.2828,1.1744,1593.3018,14.0886,0.9912,12077.36
+15218,Champions,"Early access to new ranges, account manager check-in",7.7215,25.8479,1.1716,1578.048,17.2905,0.9892,11432.83
+12583,Champions,"Early access to new ranges, account manager check-in",7.5371,25.1331,1.1671,1582.984,10.5511,0.9934,12432.74
+17133,Champions,"Early access to new ranges, account manager check-in",7.5203,25.0683,1.1667,1535.8402,28.9765,0.9815,12972.09
+13050,Champions,"Early access to new ranges, account manager check-in",7.4565,24.8222,1.1651,1561.1765,17.201,0.9891,11725.44
+15194,Champions,"Early access to new ranges, account manager check-in",7.3951,24.5861,1.1636,1573.124,10.8484,0.9932,11996.33
+15023,Champions,"Early access to new ranges, account manager check-in",7.3509,24.4167,1.1626,1561.734,14.2748,0.9909,11518.26
+14735,Champions,"Early access to new ranges, account manager check-in",7.3372,24.3642,1.1622,1575.9851,8.2242,0.9948,11962.66
+15032,Can't lose them,"Senior account manager call, tailored offer, find out what changed",7.3359,24.3591,1.1622,926.4747,267.9944,0.7756,10515.05
+14415,Champions,"Early access to new ranges, account manager check-in",7.253,24.0418,1.1602,1562.3632,11.5241,0.9927,11918.59
+14101,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",7.2446,24.0098,1.16,1338.5286,100.8441,0.9299,9961.93
+17364,Champions,"Early access to new ranges, account manager check-in",6.4022,20.8476,1.1397,1512.765,10.0682,0.9934,11597.5
+13004,Champions,"Early access to new ranges, account manager check-in",6.3794,20.7635,1.1392,1503.0125,13.4085,0.9912,11238.51
+15290,Champions,"Early access to new ranges, account manager check-in",6.3,20.4713,1.1373,1501.0177,12.2584,0.9919,10366.38
+15235,Can't lose them,"Senior account manager call, tailored offer, find out what changed",6.292,20.4417,1.1371,14.6252,606.6183,0.0235,2772.76
+14800,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",6.2769,20.3864,1.1367,1265.6777,105.8288,0.9228,6986.23
+14505,Champions,"Early access to new ranges, account manager check-in",6.0909,19.7056,1.1323,1462.5019,22.5603,0.9848,11806.53
+16182,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",6.0332,19.4957,1.131,1337.0903,71.3258,0.9494,9971.65
+17044,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",6.0305,19.4858,1.1309,1437.222,31.2069,0.9787,11962.3
+18118,Champions,"Early access to new ranges, account manager check-in",5.9831,19.3135,1.1298,1466.4242,18.3775,0.9876,6165.42
+17652,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",5.967,19.2551,1.1294,1364.002,58.9572,0.9586,4805.08
+13576,Champions,"Early access to new ranges, account manager check-in",5.9281,19.114,1.1285,1475.811,13.2927,0.9911,11184.94
+14739,Champions,"Early access to new ranges, account manager check-in",5.8593,18.8652,1.1269,1476.9942,11.1609,0.9925,11573.62
+12567,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",5.695,18.2738,1.1231,1425.0421,27.9991,0.9807,10425.44
+15260,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",5.5837,17.8755,1.1205,949.8614,215.4162,0.8151,8722.88
+13704,Champions,"Early access to new ranges, account manager check-in",5.5779,17.8548,1.1203,1414.5877,29.3873,0.9796,2308.06
+14045,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",5.5388,17.715,1.1194,1124.2116,144.6058,0.886,9375.03
+13162,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",5.3642,17.0948,1.1154,958.995,206.5578,0.8228,9234.69
+12437,Champions,"Early access to new ranges, account manager check-in",5.327,16.9632,1.1145,1453.9358,7.7041,0.9947,11198.0
+16265,Champions,"Early access to new ranges, account manager check-in",5.3012,16.8718,1.1139,1412.9184,23.5019,0.9836,6657.27
+13418,Champions,"Early access to new ranges, account manager check-in",5.2265,16.6086,1.1122,1431.3567,14.3715,0.9901,11315.46
+13685,Champions,"Early access to new ranges, account manager check-in",5.1223,16.2423,1.1098,1380.5799,32.2402,0.9772,3119.44
+12685,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",5.1095,16.1974,1.1095,1198.6016,104.7326,0.9196,2575.08
+13985,Champions,"Early access to new ranges, account manager check-in",5.0866,16.117,1.109,1429.0241,12.0278,0.9917,9991.16
+13615,Can't lose them,"Senior account manager call, tailored offer, find out what changed",5.0787,16.0895,1.1088,352.1104,442.6093,0.4431,6254.83
+14456,Champions,"Early access to new ranges, account manager check-in",5.0616,16.0297,1.1084,1385.7761,28.7444,0.9797,3003.32
+12798,Champions,"Early access to new ranges, account manager check-in",4.9077,15.493,1.1049,1348.5425,40.0602,0.9712,8510.93
+15981,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",4.8784,15.3911,1.1042,1371.616,30.1511,0.9785,9304.87
+13013,Champions,"Early access to new ranges, account manager check-in",4.8477,15.2847,1.1035,1422.3091,9.1651,0.9936,11097.43
+12762,Potential loyalists,"Second range recommendation, small volume discount",4.7962,15.1061,1.1024,1296.968,58.1106,0.9571,1702.52
+18198,Champions,"Early access to new ranges, account manager check-in",4.7398,14.9111,1.1011,1399.6306,15.7454,0.9889,5425.56
+12856,Champions,"Early access to new ranges, account manager check-in",4.7012,14.778,1.1002,1341.56,38.0866,0.9724,2170.78
+13069,Champions,"Early access to new ranges, account manager check-in",4.671,14.6738,1.0995,1415.8694,7.6678,0.9946,8627.25
+15301,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",4.5063,14.1085,1.0958,1203.7413,88.7508,0.9313,6874.77
+15993,Champions,"Early access to new ranges, account manager check-in",4.4937,14.0653,1.0955,1316.3185,43.4319,0.9681,2753.02
+13044,Can't lose them,"Senior account manager call, tailored offer, find out what changed",4.4693,13.9821,1.095,190.2798,493.2927,0.2784,4831.1
+14132,Champions,"Early access to new ranges, account manager check-in",4.4034,13.7573,1.0935,1369.0283,20.2947,0.9854,3586.03
+17049,Champions,"Early access to new ranges, account manager check-in",4.299,13.4021,1.0911,1378.5509,14.1173,0.9899,9824.23
+16168,Champions,"Early access to new ranges, account manager check-in",4.2877,13.3637,1.0909,1387.9753,10.0919,0.9928,10343.67
+12626,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",4.2857,13.357,1.0908,1304.8599,43.2934,0.9679,5772.69
+12683,Champions,"Early access to new ranges, account manager check-in",4.2721,13.3109,1.0905,1377.443,13.9525,0.99,10368.72
+13471,Champions,"Early access to new ranges, account manager check-in",4.2379,13.195,1.0898,1316.1247,37.7071,0.9721,2501.84
+15482,Champions,"Early access to new ranges, account manager check-in",4.1871,13.0233,1.0886,1355.6249,20.7623,0.9849,10416.72
+12955,Champions,"Early access to new ranges, account manager check-in",4.1327,12.8397,1.0874,1353.7402,20.2925,0.9852,4740.16
+15719,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",4.1287,12.8261,1.0873,1291.106,45.2557,0.9661,10148.22
+15555,Champions,"Early access to new ranges, account manager check-in",4.1148,12.7794,1.087,1370.3948,13.2284,0.9904,11009.33
+16550,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",4.0903,12.6969,1.0865,922.1588,191.9732,0.8277,8679.08
+17068,Champions,"Early access to new ranges, account manager check-in",4.0739,12.6419,1.0861,1365.7278,14.1787,0.9897,8945.53
+12757,Champions,"Early access to new ranges, account manager check-in",4.0717,12.6344,1.086,1305.369,38.2719,0.9715,4161.75
+12637,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",4.066,12.6152,1.0859,1195.8346,81.958,0.9359,8085.81
+16984,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",3.9429,12.2025,1.0832,1191.354,80.9991,0.9363,10265.78
+16985,Champions,"Early access to new ranges, account manager check-in",3.9309,12.1622,1.0829,1342.5071,20.269,0.9851,10548.26
+14688,Champions,"Early access to new ranges, account manager check-in",3.9187,12.1216,1.0826,1361.8372,12.2662,0.9911,7126.67
+13521,Potential loyalists,"Second range recommendation, small volume discount",3.8908,12.0283,1.082,1281.2599,43.8752,0.9669,1070.47
+15505,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",3.8741,11.9726,1.0816,1052.6027,134.9669,0.8864,3497.14
+13631,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",3.8374,11.8503,1.0808,718.4539,267.8111,0.7285,3070.42
+13018,Champions,"Early access to new ranges, account manager check-in",3.8017,11.7313,1.08,1339.1417,18.7428,0.9862,9763.16
+12524,Champions,"Early access to new ranges, account manager check-in",3.7777,11.6516,1.0795,1344.09,16.232,0.9881,9759.36
+15379,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",3.7386,11.5219,1.0786,494.7613,355.0984,0.5822,4824.14
+14422,Champions,"Early access to new ranges, account manager check-in",3.6974,11.3851,1.0777,1351.6922,11.4145,0.9916,10271.52
+15804,Champions,"Early access to new ranges, account manager check-in",3.6533,11.2393,1.0768,1337.8075,15.9963,0.9882,3878.33
+14796,Champions,"Early access to new ranges, account manager check-in",3.6416,11.2005,1.0765,1355.3169,8.7334,0.9936,10094.58
+13534,Champions,"Early access to new ranges, account manager check-in",3.6059,11.0826,1.0757,1351.219,9.5868,0.993,7632.25
+15249,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",3.5439,10.8784,1.0744,1280.2823,36.6002,0.9722,9212.0
+12431,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",3.5212,10.8034,1.0738,1254.8583,46.2697,0.9644,9995.76
+14251,Champions,"Early access to new ranges, account manager check-in",3.4872,10.6917,1.0731,1287.8427,32.3312,0.9755,2879.7
+14060,Champions,"Early access to new ranges, account manager check-in",3.3451,10.2265,1.07,1337.1702,9.499,0.9929,8893.2
+13755,Champions,"Early access to new ranges, account manager check-in",3.2913,10.0508,1.0688,1291.1076,26.7525,0.9797,2108.06
+18229,Champions,"Early access to new ranges, account manager check-in",3.2565,9.9375,1.0681,1324.1408,12.7841,0.9904,10150.51
+12912,Champions,"Early access to new ranges, account manager check-in",3.2034,9.7649,1.0669,1269.6161,33.4432,0.9743,1662.3
+17086,Champions,"Early access to new ranges, account manager check-in",3.0805,9.3667,1.0642,1257.349,35.6959,0.9724,2050.08
+16764,Champions,"Early access to new ranges, account manager check-in",3.0785,9.3601,1.0642,1299.8756,18.6406,0.9859,2768.27
+14432,Champions,"Early access to new ranges, account manager check-in",3.073,9.3425,1.0641,1253.7614,36.9694,0.9714,2248.5
+15296,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",3.0133,9.1499,1.0628,1231.2038,44.7084,0.965,10249.58
+15805,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",2.9553,8.9631,1.0615,1280.8873,23.5896,0.9819,10125.53
+14329,Champions,"Early access to new ranges, account manager check-in",2.7577,8.3303,1.0572,1277.1603,20.8616,0.9839,9768.77
+15694,Champions,"Early access to new ranges, account manager check-in",2.6837,8.0944,1.0556,1302.0829,9.32,0.9929,9907.68
+16327,Champions,"Early access to new ranges, account manager check-in",2.6591,8.0161,1.0551,1279.252,17.9304,0.9862,10119.29
+17160,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",2.6316,7.929,1.0545,1245.9047,30.6884,0.976,10209.16
+15502,Champions,"Early access to new ranges, account manager check-in",2.5536,7.6817,1.0529,1254.3605,25.6575,0.98,9227.77
+16782,Champions,"Early access to new ranges, account manager check-in",2.5368,7.6286,1.0525,1291.4514,10.4673,0.992,9570.32
+13082,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",2.4684,7.4126,1.051,803.4389,204.2322,0.7973,7335.75
+16125,Can't lose them,"Senior account manager call, tailored offer, find out what changed",2.455,7.3702,1.0507,9.6012,521.4849,0.0181,4292.35
+16858,Can't lose them,"Senior account manager call, tailored offer, find out what changed",2.4311,7.295,1.0502,79.6688,492.9563,0.1391,4265.59
+14755,Champions,"Early access to new ranges, account manager check-in",2.4203,7.261,1.05,1280.3458,12.4589,0.9904,9911.15
+12481,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",2.419,7.257,1.05,1245.0938,26.5327,0.9791,10915.61
+12700,Champions,"Early access to new ranges, account manager check-in",2.3946,7.1802,1.0495,1218.6316,36.6059,0.9708,4525.99
+12362,Champions,"Early access to new ranges, account manager check-in",2.3831,7.144,1.0492,1259.8853,19.8632,0.9845,4688.38
+17997,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",2.3689,7.0994,1.0489,457.891,340.3635,0.5736,1892.86
+14439,Can't lose them,"Senior account manager call, tailored offer, find out what changed",2.3424,7.0162,1.0483,722.2482,234.0656,0.7552,9443.04
+16701,Champions,"Early access to new ranges, account manager check-in",2.3298,6.9765,1.0481,1279.2978,10.9812,0.9915,9827.57
+17757,Champions,"Early access to new ranges, account manager check-in",2.3214,6.9502,1.0479,1294.7301,4.6331,0.9964,9044.99
+14944,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",2.3154,6.9316,1.0478,1229.6306,30.5486,0.9758,9654.07
+14292,Champions,"Early access to new ranges, account manager check-in",2.1991,6.5678,1.0453,1253.3863,18.6211,0.9854,8976.8
+12357,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",2.196,6.5581,1.0452,1162.1518,55.0506,0.9548,17437.66
+15547,Champions,"Early access to new ranges, account manager check-in",2.1722,6.4838,1.0447,1270.602,11.1748,0.9913,10002.65
+13941,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",2.1186,6.3171,1.0436,1238.9257,22.7343,0.982,9951.58
+17307,Can't lose them,"Senior account manager call, tailored offer, find out what changed",2.0923,6.2353,1.043,19.4587,509.9757,0.0368,3694.61
+16353,Champions,"Early access to new ranges, account manager check-in",2.0893,6.2259,1.043,1274.9359,7.7224,0.994,9795.46
+14085,Champions,"Early access to new ranges, account manager check-in",2.0828,6.2056,1.0428,1273.8614,8.0167,0.9937,9692.92
+14503,Champions,"Early access to new ranges, account manager check-in",2.0527,6.1123,1.0422,1222.9386,27.764,0.9778,3543.26
+12839,Champions,"Early access to new ranges, account manager check-in",2.0373,6.0645,1.0419,1269.734,8.7268,0.9932,9624.27
+17434,Champions,"Early access to new ranges, account manager check-in",2.0065,5.9692,1.0412,1225.9233,25.616,0.9795,2348.87
+15903,Champions,"Early access to new ranges, account manager check-in",2.0007,5.9513,1.0411,1244.721,17.9776,0.9858,8939.84
+13137,Champions,"Early access to new ranges, account manager check-in",1.999,5.9461,1.0411,1247.7541,16.7294,0.9868,7586.94
+17809,Champions,"Early access to new ranges, account manager check-in",1.9633,5.8355,1.0403,1242.6638,18.028,0.9857,10019.89
+17975,Champions,"Early access to new ranges, account manager check-in",1.7967,5.3225,1.0368,1230.638,19.4187,0.9845,6597.83
+13999,Champions,"Early access to new ranges, account manager check-in",1.7595,5.2082,1.036,1249.6476,11.0529,0.9912,9502.26
+15034,Champions,"Early access to new ranges, account manager check-in",1.7388,5.1447,1.0356,1223.9612,20.904,0.9832,8231.2
+15570,Champions,"Early access to new ranges, account manager check-in",1.7307,5.1201,1.0354,1247.43,11.3525,0.991,8705.79
+13735,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",1.6689,4.9311,1.0341,1209.8595,25.1207,0.9797,9539.92
+13680,Champions,"Early access to new ranges, account manager check-in",1.6446,4.857,1.0336,1230.0119,16.5657,0.9867,9899.56
+12754,At risk,"Win back call from account manager, discount on next order",1.472,4.3321,1.03,523.3906,295.715,0.639,3010.74
+13267,Champions,"Early access to new ranges, account manager check-in",1.4471,4.2566,1.0295,1240.7422,8.2711,0.9934,9354.91
+16240,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",1.1936,3.4929,1.0243,1090.0928,63.4395,0.945,3718.8
+15727,Champions,"Early access to new ranges, account manager check-in",1.1853,3.4683,1.0241,1199.7972,19.3934,0.9841,9371.71
+13599,Champions,"Early access to new ranges, account manager check-in",1.1395,3.331,1.0231,1223.4574,9.014,0.9927,9660.31
+17686,Champions,"Early access to new ranges, account manager check-in",1.0877,3.1762,1.0221,1183.2489,24.0658,0.9801,8296.81
+15150,Champions,"Early access to new ranges, account manager check-in",1.0869,3.1741,1.0221,1186.428,22.7797,0.9812,8967.44
+13949,Champions,"Early access to new ranges, account manager check-in",1.0026,2.9229,1.0203,1172.3279,26.7454,0.9777,2427.32
+17730,Champions,"Early access to new ranges, account manager check-in",0.9593,2.794,1.0194,1209.095,11.1793,0.9908,7773.8
+17131,Champions,"Early access to new ranges, account manager check-in",0.8326,2.4189,1.0168,1141.8802,35.5643,0.9698,2463.17
+12841,Champions,"Early access to new ranges, account manager check-in",0.7874,2.2855,1.0159,1210.5571,7.2046,0.9941,6907.67
+12668,Champions,"Early access to new ranges, account manager check-in",0.7729,2.2428,1.0156,1174.5718,21.3137,0.9822,9871.23
+13209,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",0.7707,2.2363,1.0156,1154.7822,29.1863,0.9753,8509.51
+17613,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",0.7466,2.1654,1.0151,1131.6168,37.9798,0.9675,4515.3
+16626,Champions,"Early access to new ranges, account manager check-in",0.7114,2.0619,1.0144,1196.2847,11.4225,0.9905,4413.1
+13555,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",0.6129,1.7729,1.0124,1083.7849,54.496,0.9521,8847.29
+16532,Champions,"Early access to new ranges, account manager check-in",0.5655,1.6341,1.0114,1138.8626,31.5395,0.9731,8756.64
+14676,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",0.5654,1.6338,1.0114,1141.257,30.5796,0.9739,8356.79
+15298,Champions,"Early access to new ranges, account manager check-in",0.5171,1.4927,1.0104,1191.903,9.3805,0.9922,9008.27
+16767,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",0.4255,1.226,1.0086,1133.3209,31.0356,0.9733,7950.41
+14709,Champions,"Early access to new ranges, account manager check-in",0.4073,1.1733,1.0082,1173.198,14.7334,0.9876,8886.33
+14004,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",0.3404,0.9793,1.0068,1079.7078,50.8363,0.955,6258.45
+17406,Can't lose them,"Senior account manager call, tailored offer, find out what changed",0.3122,0.8975,1.0063,103.385,440.8195,0.19,4186.95
+16131,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",0.2535,0.728,1.0051,1106.3905,38.4877,0.9664,9957.42
+13935,At risk,"Win back call from account manager, discount on next order",0.2475,0.7108,1.005,98.0162,441.7226,0.1816,6116.92
+13047,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",0.2445,0.7019,1.0049,1058.9889,57.2744,0.9487,8310.73
+16107,Champions,"Early access to new ranges, account manager check-in",0.1499,0.4295,1.003,1102.27,38.1455,0.9666,3204.16
+15281,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",0.1287,0.3687,1.0026,921.1013,110.2077,0.8931,8437.12
+15955,Loyal,"Reorder reminder ahead of their usual cycle, volume tier offer",0.117,0.3352,1.0023,1137.1487,23.5658,0.9797,8069.48
+14390,Champions,"Early access to new ranges, account manager check-in",0.116,0.3322,1.0023,1147.0962,19.5666,0.9832,6111.83
+16379,Champions,"Early access to new ranges, account manager check-in",0.1054,0.3019,1.0021,1111.2005,33.7226,0.9705,2131.9
+13756,Champions,"Early access to new ranges, account manager check-in",0.0913,0.2613,1.0018,1170.8906,9.5761,0.9919,8655.95

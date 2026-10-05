@@ -1,0 +1,79 @@
+# Project configuration. Every judgement call lives here, not hidden in the
+# code, so it can be argued with and changed.
+
+[data]
+source_url = "https://archive.ics.uci.edu/static/public/502/online+retail+ii.zip"
+raw_file = "data/raw/online_retail_II.xlsx"
+# Row counts published for the dataset. The loader refuses to continue if the
+# file it reads does not match, so a truncated download fails loudly.
+expected_rows = { "Year 2009-2010" = 525461, "Year 2010-2011" = 541910 }
+
+[clean]
+# Stock codes that are not products: postage, fees, manual entries, discounts,
+# samples, test lines. Matched case-insensitively. Codes starting with
+# "gift_0001" are gift vouchers and are handled by the prefix list.
+non_product_codes = [
+    "POST", "DOT", "C2", "M", "D", "S", "B", "CRUK", "PADS",
+    "BANK CHARGES", "AMAZONFEE", "ADJUST", "ADJUST2", "TEST001", "TEST002",
+]
+non_product_prefixes = ["gift_0001"]
+# How far back a cancellation may look for the order line it reverses.
+match_window_days = 365
+
+[diagnose]
+# Kaplan-Meier curve for time to second purchase is reported up to this day.
+second_purchase_horizon_days = 365
+
+[predict]
+# "mbgnbd" or "bgnbd". Chosen on the two backtests, see DECISIONS.md.
+model = "mbgnbd"
+# The last holdout_weeks of data are hidden from the model and used to judge it.
+holdout_weeks = 26
+# Forecast length after the data ends.
+horizon_weeks = 26
+bootstrap_rounds = 100
+interval = 0.90
+random_seed = 42
+
+[decide]
+# Six-month retention budget to place, in GBP. Change it and re-run.
+budget = 50000
+
+# Everything below is an assumption, not something this data can measure.
+# The base case value is used for the main plan, and the range for the
+# sensitivity runs. They are my own judgement for a UK gift wholesaler
+# selling mostly to small shops, so treat them as starting points to argue with.
+
+# Gross margin on product revenue.
+gross_margin = 0.35
+gross_margin_range = [0.25, 0.45]
+# Most a campaign can add to a customer who is still buying, as a share of
+# their expected six-month revenue (better ranges, reorder reminders).
+lift = 0.06
+lift_range = [0.02, 0.12]
+# Share of value at risk a win back can recover (a call, a sample box, a
+# first order discount) if spend is not a constraint.
+recovery = 0.15
+recovery_range = [0.05, 0.25]
+# Spend per account at which about two thirds of the possible effect is
+# reached. Roughly an account manager call plus a small incentive.
+spend_scale = 25
+spend_scale_range = [10, 50]
+
+simulations = 2000
+interval = 0.90
+random_seed = 7
+
+# What the spend actually is, by segment. Used in the target list.
+[decide.actions]
+"Champions" = "Early access to new ranges, account manager check-in"
+"Loyal" = "Reorder reminder ahead of their usual cycle, volume tier offer"
+"Potential loyalists" = "Second range recommendation, small volume discount"
+"New" = "Welcome call, best sellers pack"
+"Promising" = "Follow up on first order, sample of top lines"
+"Need attention" = "Reorder reminder, ask what is missing from the range"
+"About to sleep" = "Reorder reminder email"
+"At risk" = "Win back call from account manager, discount on next order"
+"Can't lose them" = "Senior account manager call, tailored offer, find out what changed"
+"Hibernating" = "Win back email with seasonal catalogue"
+"Lost" = "Seasonal catalogue only"

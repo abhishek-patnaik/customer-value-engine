@@ -1,0 +1,6 @@
+Strategy,Base Case Profit,Median Profit,Profit Low,Profit High,Share Of Runs Losing Money
+Optimised by expected return,12441.4,19604.1,4762.38,56090.89,0.0
+"Optimised, but forced to spend it all",-12582.88,49.86,-29497.75,50413.83,0.5
+Same spend on every customer,-31973.4,-28012.26,-41541.78,7686.04,0.91
+Only the best customers,-22210.14,-15012.6,-36930.86,29460.27,0.74
+Win back everyone lapsing,-44693.45,-43700.55,-47119.08,-36553.75,1.0

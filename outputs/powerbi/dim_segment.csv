@@ -1,0 +1,12 @@
+Segment,Segment Order,Description,Action,Planned Spend,Accounts Targeted,Expected Extra Revenue,Spend Low,Spend High
+Champions,1,"Bought recently, often and a lot","Early access to new ranges, account manager check-in",4295.2,249,41851.64,1803.81,14553.33
+Loyal,2,"Strong history, recent enough","Reorder reminder ahead of their usual cycle, volume tier offer",1624.72,117,9602.22,556.16,9192.55
+Potential loyalists,3,"Recent, building a habit","Second range recommendation, small volume discount",8.69,2,27.13,0.0,1255.17
+New,4,"Recent first order, nothing else yet","No paid action, newsletter only",0.0,0,0.0,0.0,64.33
+Promising,5,"Fairly recent, one small order","No paid action, newsletter only",0.0,0,0.0,0.0,1.3
+Need attention,6,"Middling on everything, drifting","No paid action, newsletter only",0.0,0,0.0,0.0,119.44
+About to sleep,7,One small order a few months ago,"No paid action, newsletter only",0.0,0,0.0,0.0,0.0
+At risk,8,"Used to buy well, quiet for months","Win back call from account manager, discount on next order",41.5,3,284.28,28.4,579.24
+Can't lose them,9,"Among the biggest accounts, gone quiet","Senior account manager call, tailored offer, find out what changed",344.4,23,1823.02,78.28,1223.55
+Hibernating,10,Small and quiet for a long time,"No paid action, newsletter only",0.0,0,0.0,0.0,0.0
+Lost,11,"One small order, long ago","No paid action, newsletter only",0.0,0,0.0,0.0,0.0

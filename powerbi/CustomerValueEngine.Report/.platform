@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "CustomerValueEngine"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "c37a3ec0-2b01-5d85-9c68-6e5a7d66119c"
+  }
+}

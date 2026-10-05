@@ -1,0 +1,11 @@
+step,rows_removed,rows_left,value_removed,note
+raw rows,0,1067371,0.0,both sheets stacked
+sheet overlap,22523,1044848,377488.45,invoice already present in the earlier sheet
+exact duplicate line,11812,1033036,54228.42,identical in every column
+bad debt adjustment,6,1033030,-147614.08,invoice starts with A
+non-product code,5812,1027218,75712.13,"postage, fees, discounts, manual, samples, tests"
+zero or negative price,5964,1021254,0.0,sale lines with price <= 0
+stock adjustment,0,1021254,0.0,quantity <= 0 on a non cancellation invoice
+missing customer id,227089,794165,2568806.36,guest or unrecorded customer
+reversed order (sale + its cancellation),11912,782253,545622.06,"5,956 cancellations matched, GBP 545,622 of orders undone"
+unmatched cancellation (kept as return),11630,770623,-164331.37,partial returns or orders from before Dec 2009

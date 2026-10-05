@@ -1,0 +1,4 @@
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+# leftover theme copy from a manual import, the report uses cve_theme.json
+**/RegisteredResources/Customer_Value_Engine*.json

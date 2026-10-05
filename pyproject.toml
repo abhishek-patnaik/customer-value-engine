@@ -1,0 +1,11 @@
+[project]
+name = "customer-value-engine"
+version = "0.1.0"
+description = "Cohorts, customer lifetime value and budget allocation on real retail transactions"
+requires-python = ">=3.10"
+authors = [{ name = "Abhishek Patnaik" }]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = ["ignore::DeprecationWarning"]

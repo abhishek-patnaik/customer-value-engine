@@ -1,0 +1,31 @@
+Month Start,Actual Revenue,Model Forecast,Planning Forecast,Note
+2009-12-01,671416.21,,,
+2010-01-01,529607.45,,,
+2010-02-01,488850.2,,,
+2010-03-01,658498.55,,,
+2010-04-01,578371.72,,,
+2010-05-01,574962.16,,,
+2010-06-01,609558.31,,,
+2010-07-01,569019.07,,,
+2010-08-01,575301.59,,,
+2010-09-01,790554.5,,,
+2010-10-01,984295.85,,,
+2010-11-01,1141218.34,,,
+2010-12-01,556632.93,,,
+2011-01-01,457502.65,,,
+2011-02-01,439447.15,,,
+2011-03-01,575947.05,,,
+2011-04-01,448641.83,,,
+2011-05-01,652058.77,,,
+2011-06-01,644475.12,,,
+2011-07-01,586116.27,,,
+2011-08-01,626637.72,,,
+2011-09-01,928092.06,,,
+2011-10-01,969209.51,,,
+2011-11-01,1123674.89,,,
+2011-12-01,,528611.32,349920.67,"Forecast from customers known on 9 Dec 2011. December 2011 is part actual, part forecast"
+2012-01-01,,580354.5,384172.69,"Forecast from customers known on 9 Dec 2011. December 2011 is part actual, part forecast"
+2012-02-01,,567889.04,375921.02,"Forecast from customers known on 9 Dec 2011. December 2011 is part actual, part forecast"
+2012-03-01,,667612.53,441934.19,"Forecast from customers known on 9 Dec 2011. December 2011 is part actual, part forecast"
+2012-04-01,,562795.3,372549.16,"Forecast from customers known on 9 Dec 2011. December 2011 is part actual, part forecast"
+2012-05-01,,672268.99,445016.6,"Forecast from customers known on 9 Dec 2011. December 2011 is part actual, part forecast"

@@ -1,0 +1,1739 @@
+{
+  "compatibilityLevel": 1606,
+  "model": {
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"DataFolder\", \"dim_customer\", \"fact_invoice\", \"fact_return\", \"dim_date\", \"dim_segment\", \"fact_cohort\", \"fact_month\", \"plan_budget_curve\", \"plan_strategies\"]"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-GB",
+    "cultures": [
+      {
+        "name": "en-GB",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "dim_customer.country": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_customer",
+                    "ConceptualProperty": "Country"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Country": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dim_customer.customer_id": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_customer",
+                    "ConceptualProperty": "Customer ID"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Customer": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dim_customer.days_since_last_purchase": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_customer",
+                    "ConceptualProperty": "Days Since Last Purchase"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Days since last order": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dim_customer.p_alive": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_customer",
+                    "ConceptualProperty": "P Alive"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Chance active": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dim_customer.recommended_action": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_customer",
+                    "ConceptualProperty": "Recommended Action"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Action": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dim_customer.segment": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "dim_customer",
+                    "ConceptualProperty": "Segment"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Segment": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "table_measures.accounts_targeted": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measures",
+                    "ConceptualProperty": "Accounts Targeted"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Accounts targeted": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "table_measures.avg_p_alive": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measures",
+                    "ConceptualProperty": "Avg P Alive"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Average chance still active": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "table_measures.customers": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measures",
+                    "ConceptualProperty": "Customers"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Customers": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "table_measures.expected_extra_margin": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measures",
+                    "ConceptualProperty": "Expected Extra Margin"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Expected extra margin": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "table_measures.margin_back_per_pound": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measures",
+                    "ConceptualProperty": "Margin Back per Pound"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Margin back per £1": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "table_measures.month_1_retention": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measures",
+                    "ConceptualProperty": "Month 1 Retention"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Buy again the next month": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "table_measures.planned_spend": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measures",
+                    "ConceptualProperty": "Planned Spend"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Spend that pays back": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "table_measures.planning_value_26w": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measures",
+                    "ConceptualProperty": "Planning Value 26w"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Next 6 months, planning case": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "table_measures.repeat_customer_rate": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measures",
+                    "ConceptualProperty": "Repeat Customer Rate"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Bought on more than one day": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "table_measures.revenue": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measures",
+                    "ConceptualProperty": "Revenue"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Revenue, two years": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "table_measures.target_extra_revenue": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measures",
+                    "ConceptualProperty": "Target Extra Revenue"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Expected extra revenue": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "table_measures.target_spend": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measures",
+                    "ConceptualProperty": "Target Spend"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Spend": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "table_measures.top_20_revenue_share": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measures",
+                    "ConceptualProperty": "Top 20% Revenue Share"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Revenue from the top 20%": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "table_measures.top_25_planning_value": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measures",
+                    "ConceptualProperty": "Top 25 Planning Value"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Next 6 months": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "table_measures.value_at_risk_26w": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "_Measures",
+                    "ConceptualProperty": "Value At Risk 26w"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Value at risk if nothing changes": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Version": "2.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "expressions": [
+      {
+        "name": "DataFolder",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Text"
+          }
+        ],
+        "expression": "\"E:\\job related\\resume projects\\customer-value-engine\\outputs\\powerbi\\\" meta [IsParameterQuery=true, Type=\"Text\", IsParameterQueryRequired=true]",
+        "kind": "m",
+        "lineageTag": "3674a96f-e50b-4b77-878e-08c1219a5221"
+      }
+    ],
+    "relationships": [
+      {
+        "name": "18eb6d04-d31b-5c1b-ac55-874d8e523b4d",
+        "fromColumn": "Customer ID",
+        "fromTable": "fact_invoice",
+        "toColumn": "Customer ID",
+        "toTable": "dim_customer"
+      },
+      {
+        "name": "520b890a-bab3-5af8-9aaa-e526cd6c4c36",
+        "fromColumn": "Customer ID",
+        "fromTable": "fact_return",
+        "toColumn": "Customer ID",
+        "toTable": "dim_customer"
+      },
+      {
+        "name": "3d8040f4-a02a-584f-91a9-07a8b9897d21",
+        "fromColumn": "Date",
+        "fromTable": "fact_invoice",
+        "toColumn": "Date",
+        "toTable": "dim_date"
+      },
+      {
+        "name": "98e10794-5a9c-5d90-8a12-4a56d537d336",
+        "fromColumn": "Date",
+        "fromTable": "fact_return",
+        "toColumn": "Date",
+        "toTable": "dim_date"
+      },
+      {
+        "name": "7e2c4438-80e8-565c-9422-ecfe7ce8b0d5",
+        "fromColumn": "Segment",
+        "fromTable": "dim_customer",
+        "toColumn": "Segment",
+        "toTable": "dim_segment"
+      }
+    ],
+    "sourceQueryCulture": "en-GB",
+    "tables": [
+      {
+        "name": "dim_customer",
+        "columns": [
+          {
+            "name": "Customer ID",
+            "dataType": "string",
+            "lineageTag": "3e925b39-b37a-4ef2-a3bd-436b00af2268",
+            "sourceColumn": "Customer ID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Country",
+            "dataType": "string",
+            "lineageTag": "8154235a-ecb3-4749-982e-3068ac43d0cc",
+            "sourceColumn": "Country",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "First Purchase",
+            "annotations": [
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "dd mmm yyyy",
+            "lineageTag": "42a20d3d-9f05-4cca-92fe-61269fc51d0b",
+            "sourceColumn": "First Purchase",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Last Purchase",
+            "annotations": [
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "dd mmm yyyy",
+            "lineageTag": "dd62a425-72e1-4dcc-abfb-37f12eae23a7",
+            "sourceColumn": "Last Purchase",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Cohort Month",
+            "annotations": [
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "dd mmm yyyy",
+            "lineageTag": "3a3810ba-a621-4591-9436-d451a76e5fde",
+            "sourceColumn": "Cohort Month",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Customer Type",
+            "dataType": "string",
+            "lineageTag": "f54f8ecc-19aa-4db6-bcca-ffa420366443",
+            "sourceColumn": "Customer Type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Purchase Days",
+            "dataType": "int64",
+            "lineageTag": "12cff227-1afa-4bc0-a6b5-d83de285c1b0",
+            "sourceColumn": "Purchase Days",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Revenue 2 Years",
+            "dataType": "double",
+            "formatString": "£#,0",
+            "lineageTag": "a269d09f-8adc-48eb-83ef-c6306dbe18c8",
+            "sourceColumn": "Revenue 2 Years",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Returns 2 Years",
+            "dataType": "double",
+            "formatString": "£#,0",
+            "lineageTag": "9bb34485-4ace-4f9e-a468-9dcf8c327501",
+            "sourceColumn": "Returns 2 Years",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Days Since Last Purchase",
+            "dataType": "int64",
+            "lineageTag": "e771588d-fe3f-4dde-9a4c-0756d2c8dfa8",
+            "sourceColumn": "Days Since Last Purchase",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "R Score",
+            "dataType": "int64",
+            "lineageTag": "5fcbcfe4-f7fd-46e6-b361-7daa72dabb00",
+            "sourceColumn": "R Score",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "F Score",
+            "dataType": "int64",
+            "lineageTag": "536b5961-0595-4403-9c73-8e11eaa6a435",
+            "sourceColumn": "F Score",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "M Score",
+            "dataType": "int64",
+            "lineageTag": "6f9c6068-0d4b-45ca-bc3f-701fb4f60b47",
+            "sourceColumn": "M Score",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "RFM Code",
+            "dataType": "string",
+            "lineageTag": "6c2803dc-58eb-42fc-89ed-c8f73167266a",
+            "sourceColumn": "RFM Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Segment",
+            "dataType": "string",
+            "lineageTag": "3128991c-a6e2-4f56-a209-ee069a0cf864",
+            "sortByColumn": "Segment Order",
+            "sourceColumn": "Segment",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "P Alive",
+            "dataType": "double",
+            "formatString": "0%",
+            "lineageTag": "dc86bd82-d029-47f3-b577-5f5380a758dc",
+            "sourceColumn": "P Alive",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Expected Purchases 26w",
+            "dataType": "double",
+            "lineageTag": "2ee46cb8-3c4f-4c96-b339-3eb8f57cb40f",
+            "sourceColumn": "Expected Purchases 26w",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Expected Order Value",
+            "dataType": "double",
+            "formatString": "£#,0",
+            "lineageTag": "40075e82-1418-4999-ada5-13e501b008c9",
+            "sourceColumn": "Expected Order Value",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Model Value 26w",
+            "dataType": "double",
+            "formatString": "£#,0",
+            "lineageTag": "4bfc262c-42a4-4849-8aec-9a7a913730b5",
+            "sourceColumn": "Model Value 26w",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Planning Value 26w",
+            "dataType": "double",
+            "formatString": "£#,0",
+            "lineageTag": "ae3ffbc9-2b22-4d11-90e2-22b9af840d99",
+            "sourceColumn": "Planning Value 26w",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Value At Risk 26w",
+            "dataType": "double",
+            "formatString": "£#,0",
+            "lineageTag": "f19085de-3087-4f06-9045-3547fd6342c9",
+            "sourceColumn": "Value At Risk 26w",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Value Rank",
+            "dataType": "int64",
+            "lineageTag": "45329d09-6f10-4640-bf72-b5af33d3359b",
+            "sourceColumn": "Value Rank",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Value Decile",
+            "dataType": "int64",
+            "lineageTag": "9b86f3e2-39de-4f35-b565-5201206dd702",
+            "sourceColumn": "Value Decile",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Recommended Spend",
+            "dataType": "double",
+            "formatString": "£#,0",
+            "lineageTag": "ec613084-dba7-48c3-a89b-00def4d8a1c2",
+            "sourceColumn": "Recommended Spend",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Expected Extra Revenue",
+            "dataType": "double",
+            "formatString": "£#,0",
+            "lineageTag": "6d3a744a-9409-48e6-8881-27a07de99288",
+            "sourceColumn": "Expected Extra Revenue",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Recommended Action",
+            "dataType": "string",
+            "lineageTag": "46370829-66a5-4bd8-978f-f166c3ef9ae5",
+            "sourceColumn": "Recommended Action",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "In Target List",
+            "dataType": "string",
+            "lineageTag": "620c9103-46d9-477a-882c-2dbaea4dec7b",
+            "sourceColumn": "In Target List",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Segment Order",
+            "dataType": "int64",
+            "expression": "RELATED(dim_segment[Segment Order])",
+            "isHidden": true,
+            "lineageTag": "36c0ebb4-0e84-4c5f-b5c0-650dc0fe4086",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "P Alive Band",
+            "dataType": "string",
+            "expression": "SWITCH(TRUE(), dim_customer[P Alive] >= 0.9, \"90% and over\", dim_customer[P Alive] >= 0.7, \"70 to 90%\", dim_customer[P Alive] >= 0.4, \"40 to 70%\", \"under 40%\")",
+            "lineageTag": "bb4c75d6-9712-443c-9acc-c92354338378",
+            "sortByColumn": "P Alive Band Order",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "P Alive Band Order",
+            "dataType": "int64",
+            "expression": "SWITCH(TRUE(), dim_customer[P Alive] >= 0.9, 1, dim_customer[P Alive] >= 0.7, 2, dim_customer[P Alive] >= 0.4, 3, 4)",
+            "isHidden": true,
+            "lineageTag": "08ea7c59-b20d-4a31-9504-4ceea3682334",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "lineageTag": "726537ea-9f8c-4a60-bcf8-7b72f82a8233",
+        "partitions": [
+          {
+            "name": "dim_customer",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(DataFolder & \"dim_customer.csv\"), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),",
+                "    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),",
+                "    Typed = Table.TransformColumnTypes(Promoted, {{\"Customer ID\", type text}, {\"Country\", type text}, {\"First Purchase\", type date}, {\"Last Purchase\", type date}, {\"Cohort Month\", type date}, {\"Customer Type\", type text}, {\"Purchase Days\", Int64.Type}, {\"Revenue 2 Years\", type number}, {\"Returns 2 Years\", type number}, {\"Days Since Last Purchase\", Int64.Type}, {\"R Score\", Int64.Type}, {\"F Score\", Int64.Type}, {\"M Score\", Int64.Type}, {\"RFM Code\", type text}, {\"Segment\", type text}, {\"P Alive\", type number}, {\"Expected Purchases 26w\", type number}, {\"Expected Order Value\", type number}, {\"Model Value 26w\", type number}, {\"Planning Value 26w\", type number}, {\"Value At Risk 26w\", type number}, {\"Value Rank\", Int64.Type}, {\"Value Decile\", Int64.Type}, {\"Recommended Spend\", type number}, {\"Expected Extra Revenue\", type number}, {\"Recommended Action\", type text}, {\"In Target List\", type text}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "fact_invoice",
+        "columns": [
+          {
+            "name": "Invoice",
+            "dataType": "string",
+            "lineageTag": "0e89a22b-98b3-4ca4-aaed-618c6dd41304",
+            "sourceColumn": "Invoice",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Customer ID",
+            "dataType": "string",
+            "lineageTag": "c4f891c5-00bc-4893-bf0a-30f00bb134bd",
+            "sourceColumn": "Customer ID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "dd mmm yyyy",
+            "lineageTag": "7ed59dfb-8775-4b83-be59-ea32a1e7cb6b",
+            "sourceColumn": "Date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Invoice Time",
+            "dataType": "dateTime",
+            "formatString": "dd mmm yyyy hh:nn",
+            "lineageTag": "19d4df78-b931-4a81-8280-dc24f96b8ba0",
+            "sourceColumn": "Invoice Time",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Revenue",
+            "dataType": "double",
+            "formatString": "£#,0",
+            "lineageTag": "37f3854b-fd69-40a4-9ebe-25cef0890d1a",
+            "sourceColumn": "Revenue",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Lines",
+            "dataType": "int64",
+            "lineageTag": "beb56893-5eae-4a58-8389-507ae8ce454e",
+            "sourceColumn": "Lines",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Units",
+            "dataType": "int64",
+            "lineageTag": "bfd792fd-7958-4dde-b3da-066d87c9de89",
+            "sourceColumn": "Units",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Country",
+            "dataType": "string",
+            "lineageTag": "f979d72b-136a-4ee4-a409-10da3a542343",
+            "sourceColumn": "Country",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "df4d4877-29a2-45d2-9406-26e4d5f7fbb0",
+        "partitions": [
+          {
+            "name": "fact_invoice",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(DataFolder & \"fact_invoice.csv\"), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),",
+                "    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),",
+                "    Typed = Table.TransformColumnTypes(Promoted, {{\"Invoice\", type text}, {\"Customer ID\", type text}, {\"Date\", type date}, {\"Invoice Time\", type datetime}, {\"Revenue\", type number}, {\"Lines\", Int64.Type}, {\"Units\", Int64.Type}, {\"Country\", type text}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "fact_return",
+        "columns": [
+          {
+            "name": "Invoice",
+            "dataType": "string",
+            "lineageTag": "f4143e53-5bce-4f10-9fa7-7341892f57ab",
+            "sourceColumn": "Invoice",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Customer ID",
+            "dataType": "string",
+            "lineageTag": "3abd149a-9b82-4a61-9fba-054d2f15cf68",
+            "sourceColumn": "Customer ID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "dd mmm yyyy",
+            "lineageTag": "cd159d5d-0fcf-4bba-9ed5-099acab05d2c",
+            "sourceColumn": "Date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Stock Code",
+            "dataType": "string",
+            "lineageTag": "49898495-253c-4068-bebc-b7ad02953e6e",
+            "sourceColumn": "Stock Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Return Value",
+            "dataType": "double",
+            "formatString": "£#,0",
+            "lineageTag": "ceae4be3-4906-438e-bae9-f61300a4887b",
+            "sourceColumn": "Return Value",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "2da935ae-301e-481d-8955-e4d74fbeab25",
+        "partitions": [
+          {
+            "name": "fact_return",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(DataFolder & \"fact_return.csv\"), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),",
+                "    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),",
+                "    Typed = Table.TransformColumnTypes(Promoted, {{\"Invoice\", type text}, {\"Customer ID\", type text}, {\"Date\", type date}, {\"Stock Code\", type text}, {\"Return Value\", type number}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_date",
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "dd mmm yyyy",
+            "isKey": true,
+            "lineageTag": "ac005c3a-e8fb-4497-ab8b-e4655812fb02",
+            "sourceColumn": "Date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Year",
+            "dataType": "int64",
+            "lineageTag": "8302ebb3-f87e-45f0-93b6-cc7d5ff39849",
+            "sourceColumn": "Year",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Quarter",
+            "dataType": "string",
+            "lineageTag": "459b1be4-8bb1-4b14-b7b3-9d0adf8a6556",
+            "sourceColumn": "Quarter",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Month Number",
+            "dataType": "int64",
+            "lineageTag": "b14587c9-4f46-4098-9ffe-d196b6d734a6",
+            "sourceColumn": "Month Number",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Month",
+            "dataType": "string",
+            "lineageTag": "9ed06346-56b3-4ff2-bb17-4907ce00ee8e",
+            "sortByColumn": "Month Number",
+            "sourceColumn": "Month",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Month Start",
+            "annotations": [
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "dd mmm yyyy",
+            "lineageTag": "c7ff9260-3c3b-4f2c-abfc-6ccda207b025",
+            "sourceColumn": "Month Start",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Year Month",
+            "dataType": "string",
+            "lineageTag": "2dc954a6-f374-4bfe-8b06-18fed16b5f45",
+            "sourceColumn": "Year Month",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Weekday",
+            "dataType": "string",
+            "lineageTag": "71bcf1d1-81b7-467f-b8ba-9cd61c88b63e",
+            "sortByColumn": "Weekday Number",
+            "sourceColumn": "Weekday",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Weekday Number",
+            "dataType": "int64",
+            "lineageTag": "b2745a59-4743-4a7f-b8e2-7dc9f2dcb45b",
+            "sourceColumn": "Weekday Number",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Is Forecast Period",
+            "dataType": "string",
+            "lineageTag": "b5bca1c3-ff88-4a78-9640-18213360af8c",
+            "sourceColumn": "Is Forecast Period",
+            "summarizeBy": "none"
+          }
+        ],
+        "dataCategory": "Time",
+        "lineageTag": "d71cbf93-0625-444a-8bc1-4109bd5ef5c1",
+        "partitions": [
+          {
+            "name": "dim_date",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(DataFolder & \"dim_date.csv\"), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),",
+                "    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),",
+                "    Typed = Table.TransformColumnTypes(Promoted, {{\"Date\", type date}, {\"Year\", Int64.Type}, {\"Quarter\", type text}, {\"Month Number\", Int64.Type}, {\"Month\", type text}, {\"Month Start\", type date}, {\"Year Month\", type text}, {\"Weekday\", type text}, {\"Weekday Number\", Int64.Type}, {\"Is Forecast Period\", type text}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_segment",
+        "columns": [
+          {
+            "name": "Segment",
+            "dataType": "string",
+            "lineageTag": "6f9be864-f6bc-4c0d-92a0-925db7012d4b",
+            "sortByColumn": "Segment Order",
+            "sourceColumn": "Segment",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Segment Order",
+            "dataType": "int64",
+            "lineageTag": "c7b5d1fa-4b04-449f-b820-514201db6a4a",
+            "sourceColumn": "Segment Order",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Description",
+            "dataType": "string",
+            "lineageTag": "3c04806f-9dfe-436c-adea-d17e9040ac16",
+            "sourceColumn": "Description",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Action",
+            "dataType": "string",
+            "lineageTag": "5c163c6a-1347-41d5-8915-e2735cb2cfe9",
+            "sourceColumn": "Action",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Planned Spend",
+            "dataType": "double",
+            "formatString": "£#,0",
+            "lineageTag": "3ee4eb88-ace5-4556-bee7-ddedcbd0a0d6",
+            "sourceColumn": "Planned Spend",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Accounts Targeted",
+            "dataType": "int64",
+            "lineageTag": "92612123-d0e5-48db-955a-5449f17c08cb",
+            "sourceColumn": "Accounts Targeted",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Expected Extra Revenue",
+            "dataType": "double",
+            "formatString": "£#,0",
+            "lineageTag": "36f30b02-e78d-47a7-88c9-9db6279baf88",
+            "sourceColumn": "Expected Extra Revenue",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Spend Low",
+            "dataType": "double",
+            "formatString": "£#,0",
+            "lineageTag": "b1458ea5-ef66-44d1-ae7f-ce59e12b899b",
+            "sourceColumn": "Spend Low",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Spend High",
+            "dataType": "double",
+            "formatString": "£#,0",
+            "lineageTag": "efc69db7-0352-40c0-89d4-38464574b541",
+            "sourceColumn": "Spend High",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "9e8120c5-95c5-4c10-b777-0096b787c15c",
+        "partitions": [
+          {
+            "name": "dim_segment",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(DataFolder & \"dim_segment.csv\"), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),",
+                "    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),",
+                "    Typed = Table.TransformColumnTypes(Promoted, {{\"Segment\", type text}, {\"Segment Order\", Int64.Type}, {\"Description\", type text}, {\"Action\", type text}, {\"Planned Spend\", type number}, {\"Accounts Targeted\", Int64.Type}, {\"Expected Extra Revenue\", type number}, {\"Spend Low\", type number}, {\"Spend High\", type number}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "fact_cohort",
+        "columns": [
+          {
+            "name": "Cohort Month",
+            "annotations": [
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "dd mmm yyyy",
+            "lineageTag": "e53b087b-321f-40fc-bdfc-33d3227fa545",
+            "sourceColumn": "Cohort Month",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Months Since First Purchase",
+            "dataType": "int64",
+            "lineageTag": "be36753f-a6ba-4179-9a3f-5cfe95042764",
+            "sourceColumn": "Months Since First Purchase",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Cohort Size",
+            "dataType": "int64",
+            "lineageTag": "234e2b40-0e1b-4128-9441-79c7fc522e5d",
+            "sourceColumn": "Cohort Size",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Active Customers",
+            "dataType": "int64",
+            "lineageTag": "58a77075-c95b-4171-9d3f-7ebd5ae05930",
+            "sourceColumn": "Active Customers",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Revenue",
+            "dataType": "double",
+            "formatString": "£#,0",
+            "lineageTag": "559d35e6-8f64-43dd-acd5-2e70f88731a4",
+            "sourceColumn": "Revenue",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Retention",
+            "dataType": "double",
+            "formatString": "0%",
+            "lineageTag": "feb34167-5c15-41c4-9d9e-3e5258c425b3",
+            "sourceColumn": "Retention",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Revenue Retention",
+            "dataType": "double",
+            "formatString": "0%",
+            "lineageTag": "f5b591cf-8176-4973-a186-b2167a5c8b8d",
+            "sourceColumn": "Revenue Retention",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Cumulative Revenue Per Customer",
+            "dataType": "double",
+            "lineageTag": "2f055273-e7d3-466d-b76e-40dfbf3593e2",
+            "sourceColumn": "Cumulative Revenue Per Customer",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Cohort Type",
+            "dataType": "string",
+            "lineageTag": "efe91641-9bee-45a2-9412-c831182c5fab",
+            "sourceColumn": "Cohort Type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Cohort Year",
+            "dataType": "string",
+            "expression": "FORMAT(fact_cohort[Cohort Month], \"yyyy\") & \" cohorts\"",
+            "lineageTag": "eab2ef64-50f8-40e2-9666-0fcc8b0e4473",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Cohort Label",
+            "dataType": "string",
+            "expression": "FORMAT(fact_cohort[Cohort Month], \"mmm yyyy\")",
+            "lineageTag": "4b732825-4f51-4ed6-bb6f-6711fb763bb3",
+            "sortByColumn": "Cohort Month",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "lineageTag": "39802d2c-652a-48a4-ad5b-57fc5064587c",
+        "partitions": [
+          {
+            "name": "fact_cohort",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(DataFolder & \"fact_cohort.csv\"), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),",
+                "    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),",
+                "    Typed = Table.TransformColumnTypes(Promoted, {{\"Cohort Month\", type date}, {\"Months Since First Purchase\", Int64.Type}, {\"Cohort Size\", Int64.Type}, {\"Active Customers\", Int64.Type}, {\"Revenue\", type number}, {\"Retention\", type number}, {\"Revenue Retention\", type number}, {\"Cumulative Revenue Per Customer\", type number}, {\"Cohort Type\", type text}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "fact_month",
+        "columns": [
+          {
+            "name": "Month Start",
+            "annotations": [
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "dd mmm yyyy",
+            "lineageTag": "4f109d90-e205-42a4-bdcf-880576ba8b48",
+            "sourceColumn": "Month Start",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Actual Revenue",
+            "dataType": "double",
+            "formatString": "£#,0",
+            "lineageTag": "5e919c9b-c9fd-4098-957f-4b2098240598",
+            "sourceColumn": "Actual Revenue",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Model Forecast",
+            "dataType": "double",
+            "formatString": "£#,0",
+            "lineageTag": "05577133-5d8a-438f-b0e3-23e9600b68ae",
+            "sourceColumn": "Model Forecast",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Planning Forecast",
+            "dataType": "double",
+            "formatString": "£#,0",
+            "lineageTag": "448a9d0e-3640-49ee-93db-ac338ec09d1a",
+            "sourceColumn": "Planning Forecast",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Note",
+            "dataType": "string",
+            "lineageTag": "a02b48d7-3758-4996-bf4b-fe363a5e14ea",
+            "sourceColumn": "Note",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "4180972a-02ee-47ab-adc5-2953770c7a39",
+        "partitions": [
+          {
+            "name": "fact_month",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(DataFolder & \"fact_month.csv\"), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),",
+                "    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),",
+                "    Typed = Table.TransformColumnTypes(Promoted, {{\"Month Start\", type date}, {\"Actual Revenue\", type number}, {\"Model Forecast\", type number}, {\"Planning Forecast\", type number}, {\"Note\", type text}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "plan_budget_curve",
+        "columns": [
+          {
+            "name": "Budget",
+            "dataType": "double",
+            "formatString": "£#,0",
+            "lineageTag": "4442a08e-2a12-43c5-9c89-db55e36a9141",
+            "sourceColumn": "Budget",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Incremental Revenue",
+            "dataType": "double",
+            "formatString": "£#,0",
+            "lineageTag": "570d89a9-6350-4748-a20f-0096deb8e316",
+            "sourceColumn": "Incremental Revenue",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Incremental Profit",
+            "dataType": "double",
+            "formatString": "£#,0",
+            "lineageTag": "4161cd5e-716b-4ef8-9c07-d924eb980f02",
+            "sourceColumn": "Incremental Profit",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "9bd3a4a0-f97e-420f-8ac0-88291cabf095",
+        "partitions": [
+          {
+            "name": "plan_budget_curve",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(DataFolder & \"plan_budget_curve.csv\"), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),",
+                "    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),",
+                "    Typed = Table.TransformColumnTypes(Promoted, {{\"Budget\", type number}, {\"Incremental Revenue\", type number}, {\"Incremental Profit\", type number}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "plan_strategies",
+        "columns": [
+          {
+            "name": "Strategy",
+            "dataType": "string",
+            "lineageTag": "24549b91-32b5-433e-bc4b-f4895b36bff9",
+            "sourceColumn": "Strategy",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Base Case Profit",
+            "dataType": "double",
+            "formatString": "£#,0",
+            "lineageTag": "93787383-b9f5-40d5-86e5-92558cf5b5de",
+            "sourceColumn": "Base Case Profit",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Median Profit",
+            "dataType": "double",
+            "formatString": "£#,0",
+            "lineageTag": "0468304b-f0f5-4c77-9bb8-2202ea115e1a",
+            "sourceColumn": "Median Profit",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Profit Low",
+            "dataType": "double",
+            "formatString": "£#,0",
+            "lineageTag": "d37a6970-36b9-4f8c-8016-82d42e640f07",
+            "sourceColumn": "Profit Low",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Profit High",
+            "dataType": "double",
+            "formatString": "£#,0",
+            "lineageTag": "0cfd9a8e-be43-49db-b444-44531cf5c338",
+            "sourceColumn": "Profit High",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Share Of Runs Losing Money",
+            "dataType": "double",
+            "formatString": "0%",
+            "lineageTag": "412268ab-3f9a-4349-9a3e-0dc15b5a5604",
+            "sourceColumn": "Share Of Runs Losing Money",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "93c5ecc0-7756-438d-84d7-03dec3e74cd1",
+        "partitions": [
+          {
+            "name": "plan_strategies",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(DataFolder & \"plan_strategies.csv\"), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),",
+                "    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),",
+                "    Typed = Table.TransformColumnTypes(Promoted, {{\"Strategy\", type text}, {\"Base Case Profit\", type number}, {\"Median Profit\", type number}, {\"Profit Low\", type number}, {\"Profit High\", type number}, {\"Share Of Runs Losing Money\", type number}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Margin",
+        "columns": [
+          {
+            "name": "Margin",
+            "dataType": "double",
+            "formatString": "0%",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "357665df-d973-41ea-9a50-d877356acffa",
+            "sourceColumn": "[Margin]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "0722a98c-9aaf-466c-8e8d-3bdf26036594",
+        "partitions": [
+          {
+            "name": "Margin",
+            "mode": "import",
+            "source": {
+              "expression": "SELECTCOLUMNS(GENERATESERIES(0.25, 0.45, 0.01), \"Margin\", [Value])",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "_Measures",
+        "columns": [
+          {
+            "name": "Column",
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "50e1a57e-ecbc-4ffe-b110-bdd11e433f1e",
+            "sourceColumn": "[Column]",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "3095b9ce-1b15-4fad-9d60-b23835e6faa9",
+        "measures": [
+          {
+            "name": "Revenue",
+            "expression": "SUM(fact_invoice[Revenue])",
+            "formatString": "£#,0",
+            "lineageTag": "82bb00cb-5324-4113-a016-1444e73e2023"
+          },
+          {
+            "name": "Orders",
+            "expression": "COUNTROWS(fact_invoice)",
+            "formatString": "#,0",
+            "lineageTag": "f9872bb2-3510-4b5f-a665-f41f0bc521c4"
+          },
+          {
+            "name": "Active Customers",
+            "expression": "DISTINCTCOUNT(fact_invoice[Customer ID])",
+            "formatString": "#,0",
+            "lineageTag": "8525f5ae-88bb-4e41-9f7a-3bda949817df"
+          },
+          {
+            "name": "Avg Order Value",
+            "expression": "DIVIDE([Revenue], [Orders])",
+            "formatString": "£#,0",
+            "lineageTag": "2047ad64-73ad-427d-8edd-c90b53d3fbe5"
+          },
+          {
+            "name": "Returns",
+            "expression": "SUM(fact_return[Return Value])",
+            "formatString": "£#,0",
+            "lineageTag": "cc4494e2-72c7-47cb-a960-4660a40bfe40"
+          },
+          {
+            "name": "Return Rate",
+            "expression": "DIVIDE([Returns], [Revenue])",
+            "formatString": "0.0%",
+            "lineageTag": "e79fd9ca-1a9b-47b5-b94f-bc2061cb7674"
+          },
+          {
+            "name": "Customers",
+            "expression": "COUNTROWS(dim_customer)",
+            "formatString": "#,0",
+            "lineageTag": "bdd974eb-a6ef-4957-b262-39fba688753f"
+          },
+          {
+            "name": "Repeat Customer Rate",
+            "expression": "DIVIDE(CALCULATE([Customers], dim_customer[Purchase Days] > 1), [Customers])",
+            "formatString": "0.0%",
+            "lineageTag": "4730beae-076d-43d3-85bd-5422a4b3d23c"
+          },
+          {
+            "name": "Revenue Share of Total",
+            "expression": "DIVIDE([Revenue], CALCULATE([Revenue], ALL(dim_customer), ALL(dim_segment)))",
+            "formatString": "0.0%",
+            "lineageTag": "f994e070-f99a-4f72-8a91-07feb7962dd7"
+          },
+          {
+            "name": "Top 20% Revenue Share",
+            "expression": [
+              "VAR n = ROUNDUP([Customers] * 0.2, 0)",
+              "VAR biggest = TOPN(n, dim_customer, dim_customer[Revenue 2 Years], DESC)",
+              "RETURN DIVIDE(SUMX(biggest, dim_customer[Revenue 2 Years]), SUM(dim_customer[Revenue 2 Years]))"
+            ],
+            "formatString": "0.0%",
+            "lineageTag": "3330081e-5313-4d1f-97bd-80bcd8ff75b8"
+          },
+          {
+            "name": "Actual Revenue",
+            "expression": "SUM(fact_month[Actual Revenue])",
+            "formatString": "£#,0",
+            "lineageTag": "af0a89e7-400c-49e6-b3ad-ec826da074eb"
+          },
+          {
+            "name": "Model Forecast",
+            "expression": "SUM(fact_month[Model Forecast])",
+            "formatString": "£#,0",
+            "lineageTag": "73e7ac0f-916d-4d95-add3-8c4f2f093fad"
+          },
+          {
+            "name": "Planning Forecast",
+            "expression": "SUM(fact_month[Planning Forecast])",
+            "formatString": "£#,0",
+            "lineageTag": "5c23fc9c-71e0-4294-9efd-422d269e55c4"
+          },
+          {
+            "name": "Retention %",
+            "expression": "DIVIDE(SUM(fact_cohort[Active Customers]), SUM(fact_cohort[Cohort Size]))",
+            "formatString": "0.0%",
+            "lineageTag": "662ac83a-04b8-4359-bf4c-1c0d930cd62a"
+          },
+          {
+            "name": "New Customer Retention",
+            "expression": [
+              "IF(SELECTEDVALUE(fact_cohort[Months Since First Purchase]) = 0, BLANK(),",
+              "    CALCULATE([Retention %], fact_cohort[Cohort Type] = \"New customers\"))"
+            ],
+            "formatString": "0%",
+            "lineageTag": "43e11ddf-a5ab-49c6-9891-208bf459e7ef"
+          },
+          {
+            "name": "Retention First Year",
+            "expression": [
+              "VAR age = SELECTEDVALUE(fact_cohort[Months Since First Purchase])",
+              "RETURN IF(age >= 1 && age <= 12, CALCULATE([Retention %], fact_cohort[Cohort Type] = \"New customers\"))"
+            ],
+            "formatString": "0.0%",
+            "lineageTag": "7677bc51-e6f1-4a17-b538-197472f90d52"
+          },
+          {
+            "name": "Month 1 Retention",
+            "expression": "CALCULATE([Retention %], fact_cohort[Cohort Type] = \"New customers\", fact_cohort[Months Since First Purchase] = 1)",
+            "formatString": "0.0%",
+            "lineageTag": "46cee255-018d-471a-9ba4-772c8c9f2a6b"
+          },
+          {
+            "name": "Model Value 26w",
+            "expression": "SUM(dim_customer[Model Value 26w])",
+            "formatString": "£#,0",
+            "lineageTag": "7fb774c1-1a2b-48da-99ea-e8cc12d015df"
+          },
+          {
+            "name": "Planning Value 26w",
+            "expression": "SUM(dim_customer[Planning Value 26w])",
+            "formatString": "£#,0",
+            "lineageTag": "30f9032f-ac79-476c-9f89-ab76b4002ba0"
+          },
+          {
+            "name": "Value At Risk 26w",
+            "expression": "SUM(dim_customer[Value At Risk 26w])",
+            "formatString": "£#,0",
+            "lineageTag": "cf1d11ef-2884-42e3-94c9-8a7b558a60d5"
+          },
+          {
+            "name": "Avg P Alive",
+            "expression": "AVERAGE(dim_customer[P Alive])",
+            "formatString": "0.0%",
+            "lineageTag": "0169022f-4962-4ab3-a1cf-5e329f16378f"
+          },
+          {
+            "name": "Top 25 Planning Value",
+            "expression": "IF(MIN(dim_customer[Value Rank]) <= 25, [Planning Value 26w])",
+            "formatString": "£#,0",
+            "lineageTag": "e5504ec4-d906-4086-9801-af8259828456"
+          },
+          {
+            "name": "Planned Spend",
+            "expression": "SUM(dim_customer[Recommended Spend])",
+            "formatString": "£#,0",
+            "lineageTag": "8e728629-6cf6-42ea-bc00-8f463448af1a"
+          },
+          {
+            "name": "Accounts Targeted",
+            "expression": "CALCULATE([Customers], dim_customer[In Target List] = \"Yes\")",
+            "formatString": "#,0",
+            "lineageTag": "456a1935-bf99-4523-9165-a2008c8c1eae"
+          },
+          {
+            "name": "Expected Extra Revenue",
+            "expression": "SUM(dim_customer[Expected Extra Revenue])",
+            "formatString": "£#,0",
+            "lineageTag": "77213cf7-7a84-4098-bfc8-48bb62f54c55"
+          },
+          {
+            "name": "Margin Value",
+            "expression": "SELECTEDVALUE('Margin'[Margin], 0.35)",
+            "formatString": "0%",
+            "lineageTag": "62cd9fbc-eef3-4c52-aa51-be639cf96542"
+          },
+          {
+            "name": "Expected Extra Margin",
+            "expression": "[Expected Extra Revenue] * [Margin Value]",
+            "formatString": "£#,0",
+            "lineageTag": "7db250cf-bca6-4978-ab7c-5c10db1fcf86"
+          },
+          {
+            "name": "Margin Back per Pound",
+            "expression": "DIVIDE([Expected Extra Margin], [Planned Spend])",
+            "formatString": "£#,0.00",
+            "lineageTag": "8ac7f2b2-8194-4a3f-a6cc-492b2aea9385"
+          },
+          {
+            "name": "Profit After Spend",
+            "expression": "[Expected Extra Margin] - [Planned Spend]",
+            "formatString": "£#,0",
+            "lineageTag": "fe0d0595-d53f-4c50-984a-d219e01b7951"
+          },
+          {
+            "name": "Target Spend",
+            "expression": "VAR s = SUM(dim_customer[Recommended Spend]) RETURN IF(s > 0, s)",
+            "formatString": "£#,0",
+            "lineageTag": "3a45a8c0-8138-48c2-a0c1-3be6aa9a7788"
+          },
+          {
+            "name": "Target Extra Revenue",
+            "expression": "IF(SUM(dim_customer[Recommended Spend]) > 0, SUM(dim_customer[Expected Extra Revenue]))",
+            "formatString": "£#,0",
+            "lineageTag": "205c2049-69b1-428f-abd6-faa9807f9a39"
+          },
+          {
+            "name": "Budget Profit",
+            "expression": "SUM(plan_budget_curve[Incremental Profit])",
+            "formatString": "£#,0",
+            "lineageTag": "7aeacf98-ac45-4490-9b82-654c07dca0c7"
+          },
+          {
+            "name": "Strategy Median Profit",
+            "expression": "SUM(plan_strategies[Median Profit])",
+            "formatString": "£#,0",
+            "lineageTag": "5c8b25a2-b8db-466c-b6d1-ff0677beea19"
+          },
+          {
+            "name": "Strategy Base Case Profit",
+            "expression": "SUM(plan_strategies[Base Case Profit])",
+            "formatString": "£#,0",
+            "lineageTag": "c8f9827f-3c7d-42b4-aba5-ff4ae78adb6b"
+          },
+          {
+            "name": "Segment Spend Low",
+            "expression": "SUM(dim_segment[Spend Low])",
+            "formatString": "£#,0",
+            "lineageTag": "145bd448-fc0b-45de-a495-6eb393fa829e"
+          },
+          {
+            "name": "Segment Spend High",
+            "expression": "SUM(dim_segment[Spend High])",
+            "formatString": "£#,0",
+            "lineageTag": "864a2afd-609e-4d4e-bae8-baa49a4a4e5e"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "_Measures",
+            "mode": "import",
+            "source": {
+              "expression": "ROW(\"Column\", \"\")",
+              "type": "calculated"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

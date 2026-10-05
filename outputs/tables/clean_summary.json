@@ -1,0 +1,22 @@
+{
+  "raw_rows": 1067371,
+  "clean_lines": 770623,
+  "customers": 5839,
+  "invoices": 36337,
+  "products": 4612,
+  "countries": 41,
+  "first_date": "2009-12-01 07:45:00",
+  "last_date": "2011-12-09 12:50:00",
+  "revenue": 16522960.66,
+  "returns_value": 164331.37,
+  "returns_share": 0.009945637067201005,
+  "guest_share_of_product_sales": 0.13109840365491235,
+  "uk_share_of_revenue": 0.8357451109491415,
+  "checks": {
+    "invoices_with_several_customers": 0,
+    "invoices_with_several_countries": 0,
+    "invoices_spanning_over_an_hour": 0,
+    "customers_in_several_countries": 12,
+    "non_positive_lines_left": 0
+  }
+}

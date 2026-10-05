@@ -1,0 +1,17 @@
+# core
+pandas>=2.2
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+pyarrow>=14
+tomli>=2.0; python_version < "3.11"
+
+# reading the Excel workbook (calamine is much faster, openpyxl is the fallback)
+python-calamine>=0.2
+openpyxl>=3.1
+
+# tests
+pytest>=8.0
+
+# the walkthrough notebook (optional)
+jupyterlab>=4.0
